@@ -56,76 +56,89 @@ Journal Publications
 
 Conference Papers
 ---
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
-11. 
-12. 
-13. 
-14. 
-15. 
-16. 
-17. 
-18. 
-19. 
-20. 
-21. 
-22. 
-23. 
-24. 
-25. 
-26. 
-27. 
-28. 
-29. 
-30. 
-31. 
-32. 
-33. 
-34. 
-35. 
-36. 
-37. 
-38. 
-39. 
-40. 
-41. 
-42. 
-43. 
-44. 
-45. 
-46. 
-47. 
-48. 
-49. 
-50. 
-51. 
-52. 
-53. 
-54. 
-55. 
-56. 
-57. 
-58. 
-59. 
-60. 
-61. 
-62. 
-63. 
-64. 
-65. 
-66. 
-67. 
+
+A. Patil, R. Funada, T. Tanaka and L. Sentis, Task Hierarchical Control via Null-Space Projection and Path Integral Approach, The 2025 American Control Conference, 2025.
+H. Kawase, K. Teranishi, K. Kogiso and T. Tanaka, Secure Cooperative Sensor Coverage Control Using Homomorphic Proxy Re-encryption, The 2025 American Control Conference, 2025.
+K. Teranishi, K. Kogiso and T. Tanaka, Faithful and Privacy-Preserving Implementation of Average Consensus, The 2025 American Control Conference, 2025.
+H. Kim and T. Tanaka, Earth Observation Satellite Constellation and Routing Algorithm using Markov Decision Processes, AAS/AIAA Space Flight Mechanics Meeting, 2025.
+M. W. Hibbard, T. Tanaka, and U. Topcu, Autonomous Earth Observation Through Congestion Games, AIAA SCITECH 2025 Forum, 2025.
+J. Suh, M. W. Hibbard, K. Teranishi, T. Tanaka, M. Jah, and M. Akella, Encrypted Collision Probability for Secure Satellite Conjunction Analysis, AIAA International Astronautical Congress (IAC), 2024.
+H. Park, D. Zhou, G. A. Hanasusanto, and T. Tanaka, Distributionally Robust Path Integral Control, The 2024 American Control Conference, 2024.
+Z. Wang, R. Keller, X. Deng, K. Hoshino, T. Tanaka, and Y. Nakahira, Physics-Informed Representation and Learning: Control and Risk Quantification, The 38th Annual AAAI Conference on Artificial Intelligence, 2024.
+A. Patil, Y. Zhou, D. Fridovich-Keil, T. Tanaka, Risk-Minimizing Two-Player Zero-Sum Stochastic Differential Game via Path Integral Control, The 62nd IEEE Conference on Decision and Control, 2023.
+A. Patil, M. O. Karabag, T. Tanaka, U. Topcu, Simulator-Driven Deceptive Control via Path Integral Approach, The 62nd IEEE Conference on Decision and Control, 2023.
+T. Cuvelier, T. Tanaka, R. W. Heath Jr., Online variable-length source coding for minimum bitrate LQG control, The 62nd IEEE Conference on Decision and Control, 2023.
+J. Suh and T. Tanaka, Encrypted price-based market mechanism for optimal load frequency control, The 22nd IFAC World Congress, 2023.
+A. Patil and T. Tanaka, Upper and Lower Bounds for End-to-End Risks in Stochastic Robot Navigation, The 22nd IFAC World Congress, 2023.
+R. Funada, K. Miyama, T. Toyooka, T. Tanaka and M. Sampei, Minimum Sensing Strategy for a Path-following Problem via Discrete-time Control Barrier Functions, The 22nd IFAC World Congress, 2023.
+A. Pedram and T. Tanaka, A Smoothing Algorithm for Minimum Sensing Path Plans in Gaussian Belief Space, The 2023 American Control Conference, 2023.
+M. Hibbard, A. Hashemi, T. Tanaka and U. Topcu, Randomized Greedy Algorithms for Sensor Selection in Large-Scale Satellite Constellations, The 2023 American Control Conference, 2023.
+B. He and T. Tanaka, Barrier Pairs for Safety Control of Uncertain Output Feedback Systems, The 2023 American Control Conference, 2023.
+T. Cuvelier, T. Tanaka and R. W. Heath Jr., Time-invariant prefix-free source coding for MIMO LQG control, The IEEE International Mediterranean Conference on Communications and Networking, 2022.
+A. Patil, A. Duarte, A. Smith, T. Tanaka, and F. Bisetti, Chance-Constrained Stochastic Optimal Control via Path Integral and Finite Difference Methods, The 61st IEEE Conference on Decision and Control, 2022.
+T. Cuvelier, T. Tanaka and R. W. Heath Jr., A Lower-bound for Variable-length Source Coding in LQG Feedback Control, The 61st IEEE Conference on Decision and Control, 2022.
+H. Sasahara, T. Tanaka, and H. Sandberg, Attack Impact Evaluation by Exact Convexification through State Space Augmentation, The 61st IEEE Conference on Decision and Control, 2022.
+A. Patil and T. Tanaka, Upper Bounds for Continuous-Time End-to-End Risks in Stochastic Robot Navigation, The 2022 European Control Conference, 2022.
+V. Zinage, T. Tanaka and V. Ugrinovskii, Optimal Sensor Gain Control for Minimum-Information Estimation of Continuous-Time Gauss-Markov Processes, The 2022 American Control Conference, 2022.
+A. Pedram, R. Funada and T. Tanaka, Dynamic Allocation of Visual Attention for Vision-based Autonomous Navigation under Data Rate Constraints, The 60th IEEE Conference on Decision and Control, 2021.
+T. C. Cuvelier and T. Tanaka, Rate of Prefix-free Codes in LQG Control Systems with Side Information, 55th Annual Conference on Information Sciences and Systems (CISS), 2021.
+M. Hibbard, K. Tuggle and T. Tanaka, Point-Based Value Iteration and Approximately Optimal Dynamic Sensor Selection for Linear-Gaussian Processes, The 2021 American Control Conference, 2021.
+J. Suh and T. Tanaka, Encrypted Value Iteration and Temporal Difference Learning over Leveled Homomorphic Encryption, The 2021 American Control Conference, 2021.
+H. Jung and T. Tanaka, Optimal Data Rate Allocation for Dynamic Sensor Fusion over Resource Constrained Communication Networks, The 2021 American Control Conference, 2021.
+A. Pedram, J. Stefan, R. Funada and T. Tanaka, Rationally Inattentive Path-Planning via RRT*, The 2021 American Control Conference, 2021.
+J. Suh and T. Tanaka, SARSA(0) Reinforcement Learning Over Fully Homomorphic Encryption, SICE International Symposium on Control Systems, 2021.
+M. Cubuktepe, T. Tanaka and U. Topcu, Scalable Synthesis of Minimum-Information Linear-Gaussian Control by Distributed Optimization, The 59th IEEE Conference on Decision and Control, 2020.
+M. Hibbard, Y. Wasa, and T. Tanaka, Path Integral Control for Stochastic Dynamic Traffic Routing Problems, The 59th IEEE Conference on Decision and Control, 2020.
+A. Pedram and T. Tanaka, Closed-loop Parameter Identification of Linear Dynamical Systems through the Lens of Feedback Channel Coding Theory, The 2020 American Control Conference, 2020.
+A. Pedram and T. Tanaka, Linearly-Solvable Mean-Field Approximation for Multi-Team Road Traffic Games, The 58th IEEE Conference on Decision and Control, 2019.
+Y. Savas, M. Ahmadi, T. Tanaka, and U. Topcu, Entropy-Regularized Stochastic Games, The 58th IEEE Conference on Decision and Control, 2019.
+J. Stefan and T. Tanaka, Sparse LQR Synthesis via Information Regularization, The 58th IEEE Conference on Decision and Control, 2019.
+M. Hibbard, Y. Savas, B. Wu, T. Tanaka and U. Topcu, Unpredictable Planning Under Partial Observability, The 58th IEEE Conference on Decision and Control, 2019.
+A. Pedram, T. Tanaka and M. Hale, Bidirectional Information Flow and the Roles of Privacy Masks in Cloud-Based Control, The IEEE Information Theory Workshop, 2019.
+Y. Wasa and T. Tanaka, Path-Integral Control for Optimal Vehicle Routing Over Nonlinear and Dynamic Traffic Systems, European Control Conference, 2019.
+Y. Wasa, T. Murao, T. Tanaka and K. Uchida, Strategic Bidding of Private Information for Principal-Agent Type Dynamic LQ Networks, European Control Conference, 2019.
+S. Bharadwaj, M. Ahmadi, T. Tanaka, U. Topcu, Transfer Entropy in MDPs with Temporal Logic Specifications, The 57th IEEE Conference on Decision and Control, 2018.
+T. Tanaka, E. Nekouei and K. H. Johansson, Linearly Solvable Mean-Field Road Traffic Games, 56th Annual Allerton Conference on Communication, Control, and Computing, 2018.
+A. Pedram and T. Tanaka, Some Results on the Computation of Feedback Capacity of Gaussian Channels with Memory, 56th Annual Allerton Conference on Communication, Control, and Computing, 2018.
+M. Ahmadi, S. Bharadwaj, T. Tanaka, and U. Topcu, Stochastic Games with Sensing Costs, 56th Annual Allerton Conference on Communication, Control, and Computing, 2018.
+T. Tanaka, N. Li, and K. Uchida, On the Relationship between the VCG Mechanism and Market Clearing, The 2018 American Control Conference, 2018.
+M. Ahmadi, M. Cubuktepe, U. Topcu, and T. Tanaka, Distributed Synthesis Using Accelerated ADMM, The 2018 American Control Conference, 2018.
+J. Milosevic, T. Tanaka, H. Sandberg, and K. H. Johansson, Exploiting submodularity in security measure allocation for industrial control systems. The 1st ACM Workshop on the Internet of Safe Things, 2017.
+T. Tanaka, M. Skoglund and V. Ugrinovskii, Optimal Sensor Design and Zero-Delay Source Coding for Continuous-Time Vector Gauss-Markov Processes, The 56th IEEE Conference on Decision and Control, 2017.
+J. Milosevic, T. Tanaka, H. Sandberg and K. H. Johansson, Analysis and Mitigation of Bias Injection Attacks Against Kalman Filter, The 20th IFAC World Congress, 2017.
+A. S. Leong, D. Quevedo, T. Tanaka, S. Dey and A. Ahlén, Event-Based Transmission Scheduling and LQG Control Over a Packet Dropping Link, The 20th IFAC World Congress, 2017.
+T. Tanaka, M. Skoglund, H. Sandberg, and K. H. Johansson, Directed Information and Privacy Loss in Cloud-based Control,  The 2017 American Control Conference, 2017.
+T. Tanaka, K. H. Johansson, and M. Skoglund, Optimal Block Length for Data-Rate Minimization in Networked LQG Control, The 6th IFAC Workshop on Distributed Estimation and Control in Networked Systems, 2016.
+T. Tanaka and V. Gupta, Incentivizing Truth-Telling in MPC-based Load Frequency Control, The 55th IEEE Conference on Decision and Control, 2016.
+T. Tanaka, P. Mohajerin Esfahani and S. K. Mitter, LQG Control with Minimum Directed Information, The 55th IEEE Conference on Decision and Control, 2016.
+T. Tanaka, K.l H. Johansson, T. Oechtering, H. Sandberg and M. Skoglund, Rate of Prefix-free Codes in LQG Control Systems, The 2016 IEEE International Symposium on Information Theory (ISIT).
+M. Hosseini, T. Tanaka, and V. Gupta, Designing Optimal Watermark Signal for a Stealthy Attacker, The 2016 European Control Conference.
+T. Tanaka, Zero-Delay Rate-Distortion Optimization for Partially Observable Gauss-Markov Processes, The 54th IEEE Conference on Decision and Control, 2015.
+T. Tanaka and H. Sandberg, SDP-based Joint Sensor and Controller Design for Information-regularized Optimal LQG Control, The 54th IEEE Conference on Decision and Control, 2015.
+T. Tanaka, Semidefinite Representation of Sequential Rate-Distortion Function for Stationary Gauss-Markov Processes, The 2015 IEEE Multi-Conference on Systems and Control.
+B. Shafai, A. Oghbaee and T. Tanaka, Positive Stabilization with Maximum Stability Radius for Linear Time-Delay Systems, The 53rd IEEE Conference on Decision and Control, 2014.
+T. Tanaka and P. A. Parrilo, Optimal Output Feedback Architecture for Triangular LQG Problems, The 2014 American Control Conference.
+T. Tanaka, F. Farokhi and C. Langbort, A Faithful Distributed Implementation of Dual Decomposition and Average Consensus Algorithms, The 52nd IEEE Conference on Decision and Control, 2013.
+T. Tanaka, A. Cheng and C. Langbort, A Dynamic Pivot Mechanism with Application to Real Time Pricing in Power Systems, The 2012 American Control Conference.
+T. Tanaka and C. Langbort, Symmetric Formulation of the Kalman-Yakubovich-Popov Lemma and Exact Losslessness Conition, The 50th IEEE Conference on Decision and Control, 2011. (Best Student Paper Award!)
+T. Tanaka and C. Langbort, Integral Quadratic Constraints for Nonnegative Uncertainties, The 18th IFAC World Congress, 2011.
+T. Tanaka and C. Langbort, Linear Quadratic Optimal Controller Design for Effective Price Mechanisms Using Limited Market Information, The 2nd IFAC Workshop on Distributed Estimation and Control in Networked Systems, 2010. (Best Student Paper Award Finalist)
+T. Tanaka and C. Langbort, KYP Lemma for Internally Positive Systems and a Tractable Class of Distributed H-Infinity Control Problems, The 2010 American Control Conference.
+T. Tanaka and C. Langbort, On the Use of the Generalized Structured Singular Value for Decentralized Control Problems, The 48th IEEE Conference on Decision and Control, 2009.
+T. Tanaka and C. Langbort, Communication Complexity in the Distributed Design of Linear Quadratic Optimal Controllers, The 47th IEEE Conference on Decision and Control, 2008.
+N. Sako, Y. Hatsutori, T. Tanaka, T. Inamori, and S. Nakasuka, Nano-Satellite Attitude Stabilization Method using Star Images, The 17th IFAC Symposium on Automatic Control in Aerospace, 2007.
+N. Sako, Y. Hatsutori, T. Tanaka, T. Inamori and S. Nakasuka, Nano-JASMIE : A Small Infrared Astrometry Satellite Infrared Astrometry Satellite, The 21st AAIA/USU Annual Conference on Small Satellites, 2007.
 
 U. S. Patents
 ---
+
+L. K. Mestha and T. Tanaka, Filtering source video data via independent component selection, December 2013, US Patent 8,600,213.
+T. Tanaka and L. K. Mestha, Processing source video for real-time enhancement of a signal of interest, November 2014, US Patent 8,879,867.
+
+Other Publications
+
+T. Tanaka, Rational Inattention and Directed Information in Systems and Control Theory (In Japanese), Journal of the Society of Instrument and Control Engineers, vol 60, no. 5, pages 363-368, 2021, DOI: 10.11499/sicejl.60.363.
+T. Tanaka, Distributed Control of Non-negative Systems (In Japanese), Systems, Control and Information, vol 59, no. 1, pages 15-20, 2015, DOI: 10.11509/isciesci.59.1_15.
 
 Other Publications
 ---
