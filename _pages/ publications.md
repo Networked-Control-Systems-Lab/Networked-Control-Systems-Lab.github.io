@@ -57,13 +57,13 @@ Journal Publications
 Conference Papers
 ---
 
-A. Patil, R. Funada, T. Tanaka and L. Sentis, Task Hierarchical Control via Null-Space Projection and Path Integral Approach, The 2025 American Control Conference, 2025.
-H. Kawase, K. Teranishi, K. Kogiso and T. Tanaka, Secure Cooperative Sensor Coverage Control Using Homomorphic Proxy Re-encryption, The 2025 American Control Conference, 2025.
-K. Teranishi, K. Kogiso and T. Tanaka, Faithful and Privacy-Preserving Implementation of Average Consensus, The 2025 American Control Conference, 2025.
-H. Kim and T. Tanaka, Earth Observation Satellite Constellation and Routing Algorithm using Markov Decision Processes, AAS/AIAA Space Flight Mechanics Meeting, 2025.
-M. W. Hibbard, T. Tanaka, and U. Topcu, Autonomous Earth Observation Through Congestion Games, AIAA SCITECH 2025 Forum, 2025.
-J. Suh, M. W. Hibbard, K. Teranishi, T. Tanaka, M. Jah, and M. Akella, Encrypted Collision Probability for Secure Satellite Conjunction Analysis, AIAA International Astronautical Congress (IAC), 2024.
-H. Park, D. Zhou, G. A. Hanasusanto, and T. Tanaka, Distributionally Robust Path Integral Control, The 2024 American Control Conference, 2024.
+1. A. Patil, R. Funada, T. Tanaka and L. Sentis, Task Hierarchical Control via Null-Space Projection and Path Integral Approach, The 2025 American Control Conference, 2025.
+2. H. Kawase, K. Teranishi, K. Kogiso and T. Tanaka, Secure Cooperative Sensor Coverage Control Using Homomorphic Proxy Re-encryption, The 2025 American Control Conference, 2025.
+3. K. Teranishi, K. Kogiso and T. Tanaka, Faithful and Privacy-Preserving Implementation of Average Consensus, The 2025 American Control Conference, 2025.
+4. H. Kim and T. Tanaka, Earth Observation Satellite Constellation and Routing Algorithm using Markov Decision Processes, AAS/AIAA Space Flight Mechanics Meeting, 2025.
+5. M. W. Hibbard, T. Tanaka, and U. Topcu, Autonomous Earth Observation Through Congestion Games, AIAA SCITECH 2025 Forum, 2025.
+6. J. Suh, M. W. Hibbard, K. Teranishi, T. Tanaka, M. Jah, and M. Akella, Encrypted Collision Probability for Secure Satellite Conjunction Analysis, AIAA International Astronautical Congress (IAC), 2024.
+7. H. Park, D. Zhou, G. A. Hanasusanto, and T. Tanaka, Distributionally Robust Path Integral Control, The 2024 American Control Conference, 2024.
 Z. Wang, R. Keller, X. Deng, K. Hoshino, T. Tanaka, and Y. Nakahira, Physics-Informed Representation and Learning: Control and Risk Quantification, The 38th Annual AAAI Conference on Artificial Intelligence, 2024.
 A. Patil, Y. Zhou, D. Fridovich-Keil, T. Tanaka, Risk-Minimizing Two-Player Zero-Sum Stochastic Differential Game via Path Integral Control, The 62nd IEEE Conference on Decision and Control, 2023.
 A. Patil, M. O. Karabag, T. Tanaka, U. Topcu, Simulator-Driven Deceptive Control via Path Integral Approach, The 62nd IEEE Conference on Decision and Control, 2023.
