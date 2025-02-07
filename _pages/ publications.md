@@ -132,10 +132,10 @@ Conference Papers
 U. S. Patents
 ---
 
-L. K. Mestha and T. Tanaka, Filtering source video data via independent component selection, December 2013, US Patent 8,600,213.
-T. Tanaka and L. K. Mestha, Processing source video for real-time enhancement of a signal of interest, November 2014, US Patent 8,879,867.
+1. L. K. Mestha and T. Tanaka, Filtering source video data via independent component selection, December 2013, US Patent 8,600,213.
+2. T. Tanaka and L. K. Mestha, Processing source video for real-time enhancement of a signal of interest, November 2014, US Patent 8,879,867.
 
 Other Publications
 ---
-T. Tanaka, Rational Inattention and Directed Information in Systems and Control Theory (In Japanese), Journal of the Society of Instrument and Control Engineers, vol 60, no. 5, pages 363-368, 2021, DOI: 10.11499/sicejl.60.363.
-T. Tanaka, Distributed Control of Non-negative Systems (In Japanese), Systems, Control and Information, vol 59, no. 1, pages 15-20, 2015, DOI: 10.11509/isciesci.59.1_15.
+1. T. Tanaka, Rational Inattention and Directed Information in Systems and Control Theory (In Japanese), Journal of the Society of Instrument and Control Engineers, vol 60, no. 5, pages 363-368, 2021, DOI: 10.11499/sicejl.60.363.
+2. T. Tanaka, Distributed Control of Non-negative Systems (In Japanese), Systems, Control and Information, vol 59, no. 1, pages 15-20, 2015, DOI: 10.11509/isciesci.59.1_15.
