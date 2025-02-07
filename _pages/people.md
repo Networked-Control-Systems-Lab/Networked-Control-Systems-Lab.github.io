@@ -33,7 +33,7 @@ I am pursuing my PhD in the Department of Aerospace Engineering and Engineering 
 
 Vrushabh Zinage
 ---
-<img src="/images/vrushab.jgg#left" width="30%" alt="profile image">
+<img src="/images/vrushab.jpg#left" width="30%" alt="profile image">
 
 I am a graduate student in the Department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin. My research interests lie in the intersection of robotics, motion planning and control theory. Prior to joining UT, I completed my Bachelor’s in Aerospace Engineering from the Indian Institute of Technology Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing and watching movies.
 
@@ -45,6 +45,7 @@ I am a PhD student in the Department of Aerospace Engineering at the University 
 
 
 Moses Hansen 
+---
 <img src="/images/moses.jpg#left" width="30%" alt="profile image">
 
 I am a PhD student in the Aerospace Engineering department focusing on controls, autonomy and robotics. My research interests include leveraging deep reinforcement learning methods as well as classical control theory to optimize decision making in competitive, multi-agent scenarios. I graduated from Brigham Young University with a degree in Applied and Computational Mathematics. In my spare time, I enjoy hiking, being outdoors, and cooking.
