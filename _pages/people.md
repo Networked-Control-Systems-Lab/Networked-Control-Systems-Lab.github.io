@@ -16,9 +16,9 @@ redirect_from:
 }
 
 .people-container img {
-    width: 150px;  /* Adjust width as needed */
+    width: 150px;
     height: auto;
-    border-radius: 10px; /* Optional: rounded corners */
+    border-radius: 10px;
 }
 
 .people-container p {
