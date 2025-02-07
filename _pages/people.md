@@ -17,31 +17,43 @@ redirect_from:
 .principal-investigator {
     display: flex;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     background-color: #f8f8f8;
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .principal-investigator img {
-    width: 200px;
+    width: 160px;
     height: auto;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 .postdocs-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    gap: 15px;
     text-align: center;
+}
+
+.postdocs-grid .person-box img {
+    width: 140px;
+    height: auto;
+    border: 2px solid #f0f0f0;
+    border-radius: 10px;
+}
+
+.postdocs-grid .person-box {
+    font-size: 1em;
+    padding: 10px;
 }
 
 .graduate-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Dynamic grid for filling rows left-to-right */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px; 
     background: none;
     padding: 0;
@@ -166,7 +178,7 @@ function toggleBio(id) {
     <img src="/images/vrushab.jpg" alt="profile image">
     <p>
       <strong>Vrushabh Zinage</strong><br>
-      <span id="short-vrushab">Graduate student in Aerospace Engineering...</span>
+      <span id="short-vrushab">PhD student in Aerospace Engineering...</span>
       <span id="full-vrushab" class="full-bio">
         My research interests lie in the intersection of robotics, motion planning, and control theory. Prior to joining UT, I completed my Bachelor's in Aerospace Engineering from IIT Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing, and watching movies.
       </span>
@@ -178,7 +190,7 @@ function toggleBio(id) {
     <img src="/images/jihoon.jpeg" alt="profile image">
     <p>
       <strong>Jihoon Suh</strong><br>
-      <span id="short-jihoon">Graduate student in Aerospace Engineering...</span>
+      <span id="short-jihoon">PhD student in Aerospace Engineering...</span>
       <span id="full-jihoon" class="full-bio">
         My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I served in the US Army for 6 years. <a href="https://jsuh9.github.io/">Website</a>
       </span>
