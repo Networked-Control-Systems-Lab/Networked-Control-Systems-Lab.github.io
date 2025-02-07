@@ -8,11 +8,37 @@ redirect_from:
 ---
 
 <style>
-.people-container {
+.people-container, .principal-investigator, .postdoc-container {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-bottom: 20px;
+}
+
+.principal-investigator {
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.principal-investigator img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.postdoc-container {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.postdoc-container img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .people-container img {
@@ -24,21 +50,41 @@ redirect_from:
 .people-container p {
     margin: 0;
 }
+
+.alumni {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.alumni ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.alumni li {
+    padding: 5px 0;
+}
 </style>
 
-## Current Members
-
-### Takashi Tanaka
-<div class="people-container">
+## Principal Investigator
+<div class="principal-investigator">
   <img src="/images/tanaka-199x300.jpg" alt="profile image">
-  <p>Dr. Tanaka joined the department as an Assistant Professor in 2017. Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.</p>
+  <p>Dr. Takashi Tanaka joined the department as an Assistant Professor in 2017. Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.</p>
 </div>
 
-### Kaoru Teranishi
-<div class="people-container">
+---
+
+## Postdoctoral Researchers
+<div class="postdoc-container">
   <img src="/images/profile_zoom-1-240x300.png" alt="profile image">
-  <p>Dr. Teranishi is a JSPS Overseas Research Fellow of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. He received his Ph.D. in mechanical and intelligent systems engineering from the University of Electro-Communications, Tokyo, Japan, in 2024. <a href="https://kaoruteranishi.xyz/">Kaoru’s website</a></p>
+  <p>Dr. Kaoru Teranishi is a JSPS Overseas Research Fellow of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. He received his Ph.D. in mechanical and intelligent systems engineering from the University of Electro-Communications, Tokyo, Japan, in 2024. <a href="https://kaoruteranishi.xyz/">Kaoru’s website</a></p>
 </div>
+
+---
+
+## Graduate Students
 
 ### Apurva Patil
 <div class="people-container">
@@ -83,19 +129,3 @@ redirect_from:
     <li>Jeb Stefan (Graduated with M.S. in 2019, currently at Odyssey Space Research)</li>
   </ul>
 </div>
-
-<style>
-.alumni {
-    font-size: 0.9em;
-    color: #555;
-    margin-top: 20px;
-    padding-left: 10px;
-}
-.alumni ul {
-    list-style-type: none;
-    padding: 0;
-}
-.alumni li {
-    padding: 5px 0;
-}
-</style>
