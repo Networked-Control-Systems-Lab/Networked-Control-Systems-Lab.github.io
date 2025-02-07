@@ -41,24 +41,26 @@ redirect_from:
 
 .graduate-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Dynamic grid for filling rows left-to-right */
     gap: 20px; 
-    background: none; 
+    background: none;
     padding: 0;
 }
 
 .person-box {
-    background: none; 
-    padding: 0; 
+    background: none;
+    padding: 0;
     text-align: center;
     border-radius: 0;
 }
 
 .person-box img {
-    border: 2px solid #f0f0f0; 
+    width: 120px;
+    height: auto;
+    border: 2px solid #f0f0f0;
     border-radius: 10px;
 }
-  
+
 .read-more {
     color: blue;
     cursor: pointer;
@@ -69,6 +71,17 @@ redirect_from:
 
 .full-bio {
     display: none;
+    font-size: 0.9em;
+}
+
+.alumni ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.alumni li {
+    margin-bottom: 5px;
     font-size: 0.9em;
 }
 </style>
@@ -119,18 +132,16 @@ function toggleBio(id) {
       <span id="btn-kaoru" class="read-more" onclick="toggleBio('kaoru')">Expand More</span>
     </p>
   </div>
-
-    <!-- can add more postdocs below using the same format -->
 </div>
 
 ---
 
 ## Graduate Students
 <div class="graduate-grid">
-
   <div class="person-box">
     <img src="/images/apurva.jpg" alt="profile image">
-    <p><strong>Apurva Patil</strong><br>
+    <p>
+      <strong>Apurva Patil</strong><br>
       <span id="short-apurva">PhD student in Mechanical Engineering...</span>
       <span id="full-apurva" class="full-bio">
         My research interests lie in robotics, path-planning, and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Website</a>
@@ -141,7 +152,8 @@ function toggleBio(id) {
 
   <div class="person-box">
     <img src="/images/ronnie.jpg" alt="profile image">
-    <p><strong>Ronald Ogden</strong><br>
+    <p>
+      <strong>Ronald Ogden</strong><br>
       <span id="short-ronnie">PhD student in Aerospace Engineering...</span>
       <span id="full-ronnie" class="full-bio">
         My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning, and puzzle solving.
@@ -152,7 +164,8 @@ function toggleBio(id) {
 
   <div class="person-box">
     <img src="/images/vrushab.jpg" alt="profile image">
-    <p><strong>Vrushabh Zinage</strong><br>
+    <p>
+      <strong>Vrushabh Zinage</strong><br>
       <span id="short-vrushab">Graduate student in Aerospace Engineering...</span>
       <span id="full-vrushab" class="full-bio">
         My research interests lie in the intersection of robotics, motion planning, and control theory. Prior to joining UT, I completed my Bachelor's in Aerospace Engineering from IIT Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing, and watching movies.
@@ -163,26 +176,30 @@ function toggleBio(id) {
 
   <div class="person-box">
     <img src="/images/jihoon.jpeg" alt="profile image">
-  <p><strong>Jihoon Suh</strong><br>
-    <span id="short-jihoon">Graduate student in Aerospace Engineering...</span>
-    <span id="full-jihoon" class="full-bio">
-      I am a PhD student in the Department of Aerospace Engineering at the University of Texas at Austin. My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I completed my Bachelor's at UT Austin, and I served in the US Army for 6 years as a member of MAVNI. In my free time, I enjoy playing Tennis, camping, and stargazing. <a href="https://jsuh9.github.io/">Website</a>
-    </span>
-    <span id="btn-jihoon" class="read-more" onclick="toggleBio('jihoon')">Expand More</span>
-  </p>
+    <p>
+      <strong>Jihoon Suh</strong><br>
+      <span id="short-jihoon">Graduate student in Aerospace Engineering...</span>
+      <span id="full-jihoon" class="full-bio">
+        My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I served in the US Army for 6 years. <a href="https://jsuh9.github.io/">Website</a>
+      </span>
+      <span id="btn-jihoon" class="read-more" onclick="toggleBio('jihoon')">Expand More</span>
+    </p>
+  </div>
 
   <div class="person-box">
     <img src="/images/moses.jpg" alt="profile image">
-    <p><strong>Moses Hansen</strong><br>
+    <p>
+      <strong>Moses Hansen</strong><br>
       <span id="short-moses">PhD student in Aerospace Engineering...</span>
       <span id="full-moses" class="full-bio">
-        My research interests include leveraging deep reinforcement learning methods as well as classical control theory to optimize decision-making in competitive, multi-agent scenarios. In my spare time, I enjoy hiking, being outdoors, and cooking.
+        My research interests include leveraging deep reinforcement learning methods and classical control theory to optimize decision-making in competitive, multi-agent scenarios. In my spare time, I enjoy hiking, being outdoors, and cooking.
       </span>
       <span id="btn-moses" class="read-more" onclick="toggleBio('moses')">Expand More</span>
     </p>
   </div>
-    <!-- can add more postdocs below using the same format -->
 </div>
+
+---
 
 ## Alumni
 <div class="alumni">
@@ -195,3 +212,4 @@ function toggleBio(id) {
     <li>Jeb Stefan (Graduated with M.S. in 2019, currently at Odyssey Space Research)</li>
   </ul>
 </div>
+
