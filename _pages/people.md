@@ -41,24 +41,24 @@ redirect_from:
 
 .graduate-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
-    gap: 20px;
-    text-align: center;
+    grid-template-columns: repeat(4, minmax(200px, 1fr)); 
+    gap: 20px; 
+    background: none; 
+    padding: 0;
 }
 
 .person-box {
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 10px;
+    background: none; 
+    padding: 0; 
     text-align: center;
+    border-radius: 0;
 }
 
 .person-box img {
-    width: 120px;
-    height: auto;
+    border: 2px solid #f0f0f0; 
     border-radius: 10px;
 }
-
+  
 .read-more {
     color: blue;
     cursor: pointer;
@@ -183,8 +183,6 @@ function toggleBio(id) {
   </div>
     <!-- can add more postdocs below using the same format -->
 </div>
-
----
 
 ## Alumni
 <div class="alumni">
