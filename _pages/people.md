@@ -26,12 +26,30 @@ I am a graduate student in the Department of Mechanical Engineering at UT Austin
 
 Ronald Ogden
 ---
-<img src="/images/ronnie#left" width="30%" alt="profile image">
+<img src="/images/ronnie.jpg#left" width="30%" alt="profile image">
 
 I am pursuing my PhD in the Department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin. My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning and puzzle solving.
 
 
-## Alumni
+Vrushabh Zinage
+---
+<img src="/images/vrushab.jgg#left" width="30%" alt="profile image">
+
+I am a graduate student in the Department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin. My research interests lie in the intersection of robotics, motion planning and control theory. Prior to joining UT, I completed my Bachelor’s in Aerospace Engineering from the Indian Institute of Technology Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing and watching movies.
+
+Jihoon Suh
+---
+<img src="/images/jihoon.jpeg#left" width="30%" alt="profile image">
+
+I am a PhD student in the Department of Aerospace Engineering at the University of Texas at Austin. My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I completed my Bachelor's at UT Austin, and I served in the US Army for 6 years as a member of MAVNI. In my free time, I enjoy playing Tennis, camping, and stargazing. [Jihoon's website]
+
+
+Moses Hansen 
+<img src="/images/moses.jpg#left" width="30%" alt="profile image">
+
+I am a PhD student in the Aerospace Engineering department focusing on controls, autonomy and robotics. My research interests include leveraging deep reinforcement learning methods as well as classical control theory to optimize decision making in competitive, multi-agent scenarios. I graduated from Brigham Young University with a degree in Applied and Computational Mathematics. In my spare time, I enjoy hiking, being outdoors, and cooking.
+
+### Alumni
 ---
 <small>
 Michael Hibbard (Graduated with PhD in 2024, currently at Starfish Space)  
