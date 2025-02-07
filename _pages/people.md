@@ -127,31 +127,6 @@ function toggleBio(id) {
 
 ## Graduate Students
 <div class="graduate-grid">
-  <div class="person-box">
-    <img src="/images/apurva.jpg" alt="profile image">
-    <p>
-      <strong>Apurva Patil</strong><br>
-      <span id="short-apurva">I am a graduate student in Mechanical Engineering...</span>
-      <span id="full-apurva" class="full-bio">
-        My research interests lie in robotics, path-planning, and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Website</a>
-      </span>
-      <span id="btn-apurva" class="read-more" onclick="toggleBio('apurva')">Expand More</span>
-    </p>
-  </div>
-
-  <div class="person-box">
-    <img src="/images/ronnie.jpg" alt="profile image">
-    <p>
-      <strong>Ronald Ogden</strong><br>
-      <span id="short-ronnie">I am pursuing my PhD in Aerospace Engineering...</span>
-      <span id="full-ronnie" class="full-bio">
-        My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning and puzzle solving.
-      </span>
-      <span id="btn-ronnie" class="read-more" onclick="toggleBio('ronnie')">Expand More</span>
-    </p>
-  </div>
-## Graduate Students
-<div class="graduate-grid">
 
   <div class="person-box">
     <img src="/images/apurva.jpg" alt="profile image">
@@ -206,9 +181,7 @@ function toggleBio(id) {
       <span id="btn-moses" class="read-more" onclick="toggleBio('moses')">Expand More</span>
     </p>
   </div>
-
     <!-- can add more postdocs below using the same format -->
-    
 </div>
 
 ---
