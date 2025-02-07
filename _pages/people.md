@@ -24,8 +24,15 @@ Apurva Patil
 
 I am a graduate student in the Department of Mechanical Engineering at UT Austin. My research interests lie in robotics, path-planning and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. [Apurva’s website](https://patil-apurva.github.io/portfolio/)
 
+Ronald Ogden
+---
+<img src="/images/ronnie#left" width="30%" alt="profile image">
+
+I am pursuing my PhD in the Department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin. My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning and puzzle solving.
+
 
 ## Alumni
+---
 <small>
 Michael Hibbard (Graduated with PhD in 2024, currently at Starfish Space)  
 Hyunho Jung (Graduated with PhD in 2024, currently at the Republic of Korea Air Force (ROKAF))  
