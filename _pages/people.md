@@ -54,7 +54,7 @@ redirect_from:
 .graduate-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 20px; 
+    gap: 15px; 
     background: none;
     padding: 0;
 }
@@ -121,11 +121,7 @@ function toggleBio(id) {
   <img src="/images/tanaka-199x300.jpg" alt="profile image">
   <p>
     <strong>Dr. Takashi Tanaka</strong><br>
-    <span id="short-tanaka">Dr. Tanaka joined the department as an Assistant Professor in 2017...</span>
-    <span id="full-tanaka" class="full-bio">
-      Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.
-    </span>
-    <span id="btn-tanaka" class="read-more" onclick="toggleBio('tanaka')">Expand More</span>
+    Dr. Tanaka joined the department as an Assistant Professor in 2017. Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.
   </p>
 </div>
 
