@@ -22,3 +22,14 @@ Apurva Patil
 ---
 
 I am a graduate student in the Department of Mechanical Engineering at UT Austin. My research interests lie in robotics, path-planning and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. [Apurva’s website](https://patil-apurva.github.io/portfolio/)
+
+
+Alumni
+---
+
+Michael Hibbard (Graduated with PhD in 2024, currently at Starfish Space)
+Hyunho Jung (Graduated with PhD in 2024, currently at the Republic of Korea Air Force (ROKAF))
+Ali Reza Pedram (Grudated with PhD in 2023, currently at Georgia Tech)
+Binghan He (Postdoc researcher until 2022, currently at UC Berkeley)
+Riku Funada (Postdoc researcher until 2020, currently at Tokyo Institute of Technology)
+Jeb Stefan (Graduated with M.S. in 2019, currently at Odyssey Space Research)
