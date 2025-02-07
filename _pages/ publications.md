@@ -9,11 +9,80 @@ redirect_from:
 
 Click the button below to generate citations dynamically:
 
-<button onclick="testButtonFn()">Click!</button>
+<label for="citationStyle">Citation Style:</label>
+<select id="citationStyle">
+  <option value="APA">APA</option>
+  <option value="MLA">MLA</option>
+  <option value="Chicago">Chicago</option>
+  <option value="Turabian">Turabian</option>
+  <option value="IEEE">IEEE</option>
+  <option value="BibTex">BibTex</option>
+</select>
+<button onclick="generateCitations()">Generate Citations</button>
+
+<!-- Hidden block with publication data -->
+<pre id="pubData" style="display:none;">
+Forthcoming
+---
+1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
+2. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Chance-Constrained Stochastic Optimal Control via HJB equation with Dirichlet Boundary Condition.](https://arxiv.org/abs/2306.00264)
+
+Journal Publications
+---
+1. T. Tanaka, K. Sawada, Y. Watanabe, and M. Iwamoto, Covert Vehicle Misguidance and Its Detection: A Hypothesis Testing Game over Continuous-Time Dynamics. IEEE Control Systems Letters (L-CSS) (Accepted), 2024.
+2. K. Tuggle, D. Kim, M. Akella and T. Tanaka, Non-Myopic Sensor Scheduling for Linear Systems with Colored Noise.  AIAA Journal of Guidance, Control, and Dynamics (Accepted), 2024.
+</pre>
+
+<!-- Include FileSaver.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 
 <script>
-function testButtonFn() {
-    alert("Button Clicked.");
+function formatCitation(citation, style) {
+  if (style === "APA") {
+    return citation + " [APA formatted]";
+  } else if (style === "MLA") {
+    return citation + " [MLA formatted]";
+  } else if (style === "Chicago") {
+    return citation + " [Chicago formatted]";
+  } else if (style === "Turabian") {
+    return citation + " [Turabian formatted]";
+  } else if (style === "IEEE") {
+    return citation + " [IEEE formatted]";
+  } else if (style === "BibTex") {
+    return "@misc{" + citation.replace(/[^a-zA-Z0-9]/g, "") + ", note = {" + citation + "}}";
+  } else {
+    return citation;
+  }
+}
+
+function generateCitations() {
+  var style = document.getElementById("citationStyle").value;
+  var mdText = document.getElementById("pubData").textContent;
+  var lines = mdText.split("\n");
+  var output = "";
+  for (var i = 0; i < lines.length; i++) {
+    var line = lines[i].trim();
+    if (line === "") {
+      output += "\n";
+    } else if (line.match(/^-+$/)) {
+      // Separator line (---)
+      output += line + "\n";
+    } else if (!line.match(/^\d+\./) && line.indexOf("---") === -1) {
+      // Section heading (e.g., Forthcoming, Journal Publications, etc.)
+      output += line + "\n";
+    } else if (line.match(/^\d+\./)) {
+      // Publication entry (starting with a number and a dot)
+      var dotIndex = line.indexOf(".");
+      var num = line.substring(0, dotIndex + 1);
+      var citationText = line.substring(dotIndex + 1).trim();
+      var formattedCitation = formatCitation(citationText, style);
+      output += num + " " + formattedCitation + "\n";
+    } else {
+      output += line + "\n";
+    }
+  }
+  var blob = new Blob([output], {type: "text/plain;charset=utf-8"});
+  saveAs(blob, "formatted_citations.txt");
 }
 </script>
 
