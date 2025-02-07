@@ -39,18 +39,6 @@ redirect_from:
     text-align: center;
 }
 
-.postdoc {
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.postdoc img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-}
-
 .graduate-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
@@ -58,89 +46,112 @@ redirect_from:
     text-align: center;
 }
 
-.graduate-student {
+.person-box {
     background: #f4f4f4;
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
 }
 
-.graduate-student img {
+.person-box img {
     width: 120px;
     height: auto;
     border-radius: 10px;
 }
 
-.alumni {
+.read-more {
+    color: blue;
+    cursor: pointer;
     font-size: 0.9em;
-    color: #555;
-    margin-top: 20px;
-    padding-left: 10px;
+    display: block;
+    margin-top: 5px;
 }
 
-.alumni ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.alumni li {
-    padding: 5px 0;
+.full-bio {
+    display: none;
+    font-size: 0.9em;
 }
 </style>
+
+<script>
+function toggleBio(id) {
+    var shortBio = document.getElementById("short-" + id);
+    var fullBio = document.getElementById("full-" + id);
+    var button = document.getElementById("btn-" + id);
+
+    if (fullBio.style.display === "none") {
+        fullBio.style.display = "block";
+        shortBio.style.display = "none";
+        button.innerText = "Show Less";
+    } else {
+        fullBio.style.display = "none";
+        shortBio.style.display = "inline";
+        button.innerText = "Expand More";
+    }
+}
+</script>
 
 ## Principal Investigator
 <div class="principal-investigator">
   <img src="/images/tanaka-199x300.jpg" alt="profile image">
-  <p>Dr. Takashi Tanaka joined the department as an Assistant Professor in 2017. Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.</p>
+  <p>
+    <strong>Dr. Takashi Tanaka</strong><br>
+    <span id="short-tanaka">Dr. Tanaka joined the department as an Assistant Professor in 2017...</span>
+    <span id="full-tanaka" class="full-bio">
+      Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.
+    </span>
+    <span id="btn-tanaka" class="read-more" onclick="toggleBio('tanaka')">Expand More</span>
+  </p>
 </div>
 
 ---
 
 ## Postdoctoral Researchers
 <div class="postdocs-grid">
-  <div class="postdoc">
+  <div class="person-box">
     <img src="/images/profile_zoom-1-240x300.png" alt="profile image">
-    <p><strong>Kaoru Teranishi</strong></p>
-    <p>Dr. Kaoru Teranishi is a JSPS Overseas Research Fellow of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. <a href="https://kaoruteranishi.xyz/">Website</a></p>
+    <p>
+      <strong>Kaoru Teranishi</strong><br>
+      <span id="short-kaoru">Dr. Teranishi is a JSPS Overseas Research Fellow...</span>
+      <span id="full-kaoru" class="full-bio">
+        of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. He received his Ph.D. in mechanical and intelligent systems engineering from the University of Electro-Communications, Tokyo, Japan, in 2024. <a href="https://kaoruteranishi.xyz/">Website</a>
+      </span>
+      <span id="btn-kaoru" class="read-more" onclick="toggleBio('kaoru')">Expand More</span>
+    </p>
   </div>
 
-  <!-- more Postdocs can be added below (use the same format as above) -->
+    <!-- can add more postdocs below using the same format -->
 </div>
 
 ---
 
 ## Graduate Students
 <div class="graduate-grid">
-  <div class="graduate-student">
+  <div class="person-box">
     <img src="/images/apurva.jpg" alt="profile image">
-    <p><strong>Apurva Patil</strong></p>
-    <p>Graduate student in Mechanical Engineering. Research interests: robotics, path-planning, perception. <a href="https://patil-apurva.github.io/portfolio/">Website</a></p>
+    <p>
+      <strong>Apurva Patil</strong><br>
+      <span id="short-apurva">I am a graduate student in Mechanical Engineering...</span>
+      <span id="full-apurva" class="full-bio">
+        My research interests lie in robotics, path-planning, and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Website</a>
+      </span>
+      <span id="btn-apurva" class="read-more" onclick="toggleBio('apurva')">Expand More</span>
+    </p>
   </div>
 
-  <div class="graduate-student">
+  <div class="person-box">
     <img src="/images/ronnie.jpg" alt="profile image">
-    <p><strong>Ronald Ogden</strong></p>
-    <p>PhD student in Aerospace Engineering. Research interests: event-based estimation, stochastic control.</p>
+    <p>
+      <strong>Ronald Ogden</strong><br>
+      <span id="short-ronnie">I am pursuing my PhD in Aerospace Engineering...</span>
+      <span id="full-ronnie" class="full-bio">
+        My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning and puzzle solving.
+      </span>
+      <span id="btn-ronnie" class="read-more" onclick="toggleBio('ronnie')">Expand More</span>
+    </p>
   </div>
 
-  <div class="graduate-student">
-    <img src="/images/vrushab.jpg" alt="profile image">
-    <p><strong>Vrushabh Zinage</strong></p>
-    <p>Graduate student in Aerospace Engineering. Research interests: robotics, motion planning, control theory.</p>
-  </div>
-
-  <div class="graduate-student">
-    <img src="/images/jihoon.jpeg" alt="profile image">
-    <p><strong>Jihoon Suh</strong></p>
-    <p>PhD student in Aerospace Engineering. Research focus: encrypted control, privacy protection in control systems. <a href="https://jsuh9.github.io/">Website</a></p>
-  </div>
-
-  <div class="graduate-student">
-    <img src="/images/moses.jpg" alt="profile image">
-    <p><strong>Moses Hansen</strong></p>
-    <p>PhD student in Aerospace Engineering. Research interests: deep reinforcement learning, multi-agent decision-making.</p>
-  </div>
-
-  <!-- more grad students can be added below (use the same format as above) -->
+  <!-- can add more graduate students below using the same format -->
 </div>
 
 ---
