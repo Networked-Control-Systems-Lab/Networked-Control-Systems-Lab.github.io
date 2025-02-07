@@ -8,47 +8,66 @@ redirect_from:
 ---
 
 <style>
-.people-container, .principal-investigator, .postdoc-container {
-    display: flex;
-    align-items: center;
+.grid-container {
+    display: grid;
     gap: 20px;
-    margin-bottom: 20px;
+    justify-content: center;
 }
 
 .principal-investigator {
+    display: flex;
+    align-items: center;
     font-size: 1.2em;
     font-weight: bold;
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .principal-investigator img {
     width: 200px;
     height: auto;
     border-radius: 10px;
+    margin-right: 20px;
 }
 
-.postdoc-container {
-    font-size: 1.1em;
-    font-weight: bold;
+.postdocs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.postdoc {
+    background: #f4f4f4;
     padding: 15px;
-}
-
-.postdoc-container img {
-    width: 180px;
-    height: auto;
     border-radius: 10px;
 }
 
-.people-container img {
+.postdoc img {
     width: 150px;
     height: auto;
     border-radius: 10px;
 }
 
-.people-container p {
-    margin: 0;
+.graduate-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.graduate-student {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.graduate-student img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .alumni {
@@ -77,43 +96,51 @@ redirect_from:
 ---
 
 ## Postdoctoral Researchers
-<div class="postdoc-container">
-  <img src="/images/profile_zoom-1-240x300.png" alt="profile image">
-  <p>Dr. Kaoru Teranishi is a JSPS Overseas Research Fellow of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. He received his Ph.D. in mechanical and intelligent systems engineering from the University of Electro-Communications, Tokyo, Japan, in 2024. <a href="https://kaoruteranishi.xyz/">Kaoru’s website</a></p>
+<div class="postdocs-grid">
+  <div class="postdoc">
+    <img src="/images/profile_zoom-1-240x300.png" alt="profile image">
+    <p><strong>Kaoru Teranishi</strong></p>
+    <p>Dr. Kaoru Teranishi is a JSPS Overseas Research Fellow of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. <a href="https://kaoruteranishi.xyz/">Website</a></p>
+  </div>
+
+  <!-- more Postdocs can be added below (use the same format as above) -->
 </div>
 
 ---
 
 ## Graduate Students
+<div class="graduate-grid">
+  <div class="graduate-student">
+    <img src="/images/apurva.jpg" alt="profile image">
+    <p><strong>Apurva Patil</strong></p>
+    <p>Graduate student in Mechanical Engineering. Research interests: robotics, path-planning, perception. <a href="https://patil-apurva.github.io/portfolio/">Website</a></p>
+  </div>
 
-### Apurva Patil
-<div class="people-container">
-  <img src="/images/apurva.jpg" alt="profile image">
-  <p>I am a graduate student in the Department of Mechanical Engineering at UT Austin. My research interests lie in robotics, path-planning and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Apurva’s website</a></p>
-</div>
+  <div class="graduate-student">
+    <img src="/images/ronnie.jpg" alt="profile image">
+    <p><strong>Ronald Ogden</strong></p>
+    <p>PhD student in Aerospace Engineering. Research interests: event-based estimation, stochastic control.</p>
+  </div>
 
-### Ronald Ogden
-<div class="people-container">
-  <img src="/images/ronnie.jpg" alt="profile image">
-  <p>I am pursuing my PhD in the Department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin. My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning and puzzle solving.</p>
-</div>
+  <div class="graduate-student">
+    <img src="/images/vrushab.jpg" alt="profile image">
+    <p><strong>Vrushabh Zinage</strong></p>
+    <p>Graduate student in Aerospace Engineering. Research interests: robotics, motion planning, control theory.</p>
+  </div>
 
-### Vrushabh Zinage
-<div class="people-container">
-  <img src="/images/vrushab.jpg" alt="profile image">
-  <p>I am a graduate student in the Department of Aerospace Engineering and Engineering Mechanics at UT Austin. My research interests lie in the intersection of robotics, motion planning and control theory. Prior to joining UT, I completed my Bachelor's in Aerospace Engineering from IIT Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing and watching movies.</p>
-</div>
+  <div class="graduate-student">
+    <img src="/images/jihoon.jpeg" alt="profile image">
+    <p><strong>Jihoon Suh</strong></p>
+    <p>PhD student in Aerospace Engineering. Research focus: encrypted control, privacy protection in control systems. <a href="https://jsuh9.github.io/">Website</a></p>
+  </div>
 
-### Jihoon Suh
-<div class="people-container">
-  <img src="/images/jihoon.jpeg" alt="profile image">
-  <p>I am a PhD student in the Department of Aerospace Engineering at UT Austin. My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I completed my Bachelor's at UT Austin, and I served in the US Army for 6 years as a member of MAVNI. In my free time, I enjoy playing Tennis, camping, and stargazing. <a href="https://jsuh9.github.io/">Jihoon’s website</a></p>
-</div>
+  <div class="graduate-student">
+    <img src="/images/moses.jpg" alt="profile image">
+    <p><strong>Moses Hansen</strong></p>
+    <p>PhD student in Aerospace Engineering. Research interests: deep reinforcement learning, multi-agent decision-making.</p>
+  </div>
 
-### Moses Hansen
-<div class="people-container">
-  <img src="/images/moses.jpg" alt="profile image">
-  <p>I am a PhD student in the Aerospace Engineering department focusing on controls, autonomy, and robotics. My research interests include leveraging deep reinforcement learning methods as well as classical control theory to optimize decision-making in competitive, multi-agent scenarios. I graduated from Brigham Young University with a degree in Applied and Computational Mathematics. In my spare time, I enjoy hiking, being outdoors, and cooking.</p>
+  <!-- more grad students can be added below (use the same format as above) -->
 </div>
 
 ---
