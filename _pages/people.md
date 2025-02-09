@@ -214,12 +214,12 @@ function toggleBio(id) {
 ## Alumni
 <div class="alumni">
   <ul>
-    <li>Michael Hibbard (Graduated with PhD in 2024, currently at Starfish Space)</li>
-    <li>Hyunho Jung (Graduated with PhD in 2024, currently at the Republic of Korea Air Force (ROKAF))</li>
-    <li>Ali Reza Pedram (Graduated with PhD in 2023, currently at Georgia Tech)</li>
-    <li>Binghan He (Postdoc researcher until 2022, currently at UC Berkeley)</li>
-    <li>Riku Funada (Postdoc researcher until 2020, currently at Tokyo Institute of Technology)</li>
-    <li>Jeb Stefan (Graduated with M.S. in 2019, currently at Odyssey Space Research)</li>
+    <li>Michael Hibbard (Graduated from UT Austin with PhD in 2024, currently at Starfish Space)</li>
+    <li>Hyunho Jung (Graduated from UT Austin with PhD in 2024, currently at the Republic of Korea Air Force (ROKAF))</li>
+    <li>Ali Reza Pedram (Graduated from UT Austin  with PhD in 2023, currently at Georgia Tech)</li>
+    <li>Binghan He (Postdoc researcher at UT Austin until 2022, currently at UC Berkeley)</li>
+    <li>Riku Funada (Postdoc researcher at UT Austin until 2020, currently at Tokyo Institute of Technology)</li>
+    <li>Jeb Stefan (Graduated from UT Austin with M.S. in 2019, currently at Odyssey Space Research)</li>
   </ul>
 </div>
 
