@@ -151,7 +151,7 @@ function toggleBio(id) {
     <img src="/images/jihoon.jpeg" alt="profile image">
     <p>
       <strong>Jihoon Suh</strong><br><br>
-      <span id="short-jihoon">PhD student in Aerospace Engineering at Purdue...</span>
+      <span id="short-jihoon">PhD student in AAE at Purdue...</span>
       <span id="full-jihoon" class="full-bio">
         My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I served in the US Army for 6 years. <a href="https://jsuh9.github.io/">Website</a>
       </span>
@@ -163,7 +163,7 @@ function toggleBio(id) {
     <img src="/images/moses.jpg" alt="profile image">
     <p>
       <strong>Moses Hansen</strong><br><br>
-      <span id="short-moses">PhD student in Aerospace Engineering at Purdue...</span>
+      <span id="short-moses">PhD student in AAE at Purdue...</span>
       <span id="full-moses" class="full-bio">
         My research interests include leveraging deep reinforcement learning methods and classical control theory to optimize decision-making in competitive, multi-agent scenarios. In my spare time, I enjoy hiking, being outdoors, and cooking.
       </span>
