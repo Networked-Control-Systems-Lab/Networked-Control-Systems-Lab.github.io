@@ -214,8 +214,10 @@ function toggleBio(id) {
 ## Alumni
 <div class="alumni">
   <ul>
+    <li>
     <li>Michael Hibbard (Graduated from UT Austin with PhD in 2024, currently at Starfish Space)</li>
-    <li>Hyunho Jung (Graduated from UT Austin with PhD in 2024, currently at the Republic of Korea Air Force (ROKAF))</li>
+    <li>Hyunho Jung (Graduated from UT Austin with PhD in 2024, currently at the Republic of Korea Air Force)</li>
+    <li>Travis Cuvelier (Graduated from UT Austin with PhD in 2024, currently at MITRE Corporation)</li>
     <li>Ali Reza Pedram (Graduated from UT Austin  with PhD in 2023, currently at Georgia Tech)</li>
     <li>Binghan He (Postdoc researcher at UT Austin until 2022, currently at UC Berkeley)</li>
     <li>Riku Funada (Postdoc researcher at UT Austin until 2020, currently at Tokyo Institute of Technology)</li>
