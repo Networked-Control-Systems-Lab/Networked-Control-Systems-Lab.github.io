@@ -170,8 +170,7 @@ function toggleBio(id) {
       <span id="btn-moses" class="read-more" onclick="toggleBio('moses')">Expand More</span>
     </p>
   </div>
-</div>
-
+  
   <div class="person-box">
     <img src="/images/apurva.jpg" alt="profile image">
     <p>
@@ -207,6 +206,8 @@ function toggleBio(id) {
       <span id="btn-vrushab" class="read-more" onclick="toggleBio('vrushab')">Expand More</span>
     </p>
   </div>
+
+</div>
 
 ---
 
