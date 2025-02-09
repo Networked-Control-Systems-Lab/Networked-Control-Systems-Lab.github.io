@@ -214,7 +214,6 @@ function toggleBio(id) {
 ## Alumni
 <div class="alumni">
   <ul>
-    <li>
     <li>Michael Hibbard (Graduated from UT Austin with PhD in 2024, currently at Starfish Space)</li>
     <li>Hyunho Jung (Graduated from UT Austin with PhD in 2024, currently at the Republic of Korea Air Force)</li>
     <li>Travis Cuvelier (Graduated from UT Austin with PhD in 2024, currently at MITRE Corporation)</li>
