@@ -146,47 +146,12 @@ function toggleBio(id) {
 
 ## Graduate Students
 <div class="graduate-grid">
-  <div class="person-box">
-    <img src="/images/apurva.jpg" alt="profile image">
-    <p>
-      <strong>Apurva Patil</strong><br><br>
-      <span id="short-apurva">PhD student in Mechanical Engineering...</span>
-      <span id="full-apurva" class="full-bio">
-        My research interests lie in robotics, path-planning, and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Website</a>
-      </span>
-      <span id="btn-apurva" class="read-more" onclick="toggleBio('apurva')">Expand More</span>
-    </p>
-  </div>
-
-  <div class="person-box">
-    <img src="/images/ronnie.jpg" alt="profile image">
-    <p>
-      <strong>Ronald Ogden</strong><br><br>
-      <span id="short-ronnie">PhD student in Aerospace Engineering...</span>
-      <span id="full-ronnie" class="full-bio">
-        My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning, and puzzle solving.
-      </span>
-      <span id="btn-ronnie" class="read-more" onclick="toggleBio('ronnie')">Expand More</span>
-    </p>
-  </div>
-
-  <div class="person-box">
-    <img src="/images/vrushab.jpg" alt="profile image">
-    <p>
-      <strong>Vrushabh Zinage</strong><br><br>
-      <span id="short-vrushab">PhD student in Aerospace Engineering...</span>
-      <span id="full-vrushab" class="full-bio">
-        My research interests lie in the intersection of robotics, motion planning, and control theory. Prior to joining UT, I completed my Bachelor's in Aerospace Engineering from IIT Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing, and watching movies.
-      </span>
-      <span id="btn-vrushab" class="read-more" onclick="toggleBio('vrushab')">Expand More</span>
-    </p>
-  </div>
 
   <div class="person-box">
     <img src="/images/jihoon.jpeg" alt="profile image">
     <p>
       <strong>Jihoon Suh</strong><br><br>
-      <span id="short-jihoon">PhD student in Aerospace Engineering...</span>
+      <span id="short-jihoon">PhD student in Aerospace Engineering at Purdue...</span>
       <span id="full-jihoon" class="full-bio">
         My current research is on encrypted control, where the objective is to protect the privacy of sensitive data such as personal, financial, or strategically valuable information while they are being processed by a control system. I served in the US Army for 6 years. <a href="https://jsuh9.github.io/">Website</a>
       </span>
@@ -198,7 +163,7 @@ function toggleBio(id) {
     <img src="/images/moses.jpg" alt="profile image">
     <p>
       <strong>Moses Hansen</strong><br><br>
-      <span id="short-moses">PhD student in Aerospace Engineering...</span>
+      <span id="short-moses">PhD student in Aerospace Engineering at Purdue...</span>
       <span id="full-moses" class="full-bio">
         My research interests include leveraging deep reinforcement learning methods and classical control theory to optimize decision-making in competitive, multi-agent scenarios. In my spare time, I enjoy hiking, being outdoors, and cooking.
       </span>
@@ -206,6 +171,42 @@ function toggleBio(id) {
     </p>
   </div>
 </div>
+
+  <div class="person-box">
+    <img src="/images/apurva.jpg" alt="profile image">
+    <p>
+      <strong>Apurva Patil</strong><br><br>
+      <span id="short-apurva">PhD student in Mechanical Engineering at UT Austin...</span>
+      <span id="full-apurva" class="full-bio">
+        My research interests lie in robotics, path-planning, and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Website</a>
+      </span>
+      <span id="btn-apurva" class="read-more" onclick="toggleBio('apurva')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/ronnie.jpg" alt="profile image">
+    <p>
+      <strong>Ronald Ogden</strong><br><br>
+      <span id="short-ronnie">PhD student in Aerospace Engineering at UT Austin...</span>
+      <span id="full-ronnie" class="full-bio">
+        My research interests include event-based estimation and stochastic control. Prior to coming to UT, I was a flight test engineer at Wisk Aero, where I tested autonomous eVTOL aircraft. In my free time, I enjoy climbing, language learning, and puzzle solving.
+      </span>
+      <span id="btn-ronnie" class="read-more" onclick="toggleBio('ronnie')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/vrushab.jpg" alt="profile image">
+    <p>
+      <strong>Vrushabh Zinage</strong><br><br>
+      <span id="short-vrushab">PhD student in Aerospace Engineering at UT Austin...</span>
+      <span id="full-vrushab" class="full-bio">
+        My research interests lie in the intersection of robotics, motion planning, and control theory. Prior to joining UT, I completed my Bachelor's in Aerospace Engineering from IIT Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing, and watching movies.
+      </span>
+      <span id="btn-vrushab" class="read-more" onclick="toggleBio('vrushab')">Expand More</span>
+    </p>
+  </div>
 
 ---
 
