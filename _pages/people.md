@@ -121,7 +121,8 @@ function toggleBio(id) {
   <img src="/images/tanaka-199x300.jpg" alt="profile image">
   <p>
     <strong>Dr. Takashi Tanaka</strong><br><br>
-    Dr. Tanaka joined the department as an Assistant Professor in 2017. Before moving to UT, he held a postdoctoral researcher position at KTH Royal Institute of Technology, Sweden. From 2012 to 2015, he was a postdoctoral associate at MIT, USA. Dr. Tanaka received his M.S. and Ph.D. degrees in Aerospace Engineering from UIUC, USA, in 2009 and 2012, respectively. Prior to his graduate studies, he received his B.S. degree in Aerospace Engineering from the University of Tokyo, Japan. Dr. Tanaka is a recipient of the IEEE CDC best student paper award in 2011.
+    Takashi Tanaka is an Associate Professor at the School of Aeronautics and Astronautics and the Elmore Family School of Electrical and Computer Engineering at Purdue University.
+He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees in aerospace engineering from the University of Illinois at Urbana-Champaign.  Dr. Tanaka was a Postdoctoral Associate with the Laboratory for Information and Decision Systems at the Massachusetts Institute of Technology from 2012 to 2015, and a postdoctoral researcher at KTH Royal Institute of Technology from 2015 to 2017. He was an Assistant Professor in the Department of Aerospace Engineering and Engineering Mechanics at the University of Texas at Austin between 2017 and 2024, where he was an Associate Professor in 2024. Dr. Tanaka's research interests include control theory and its applications, most recently the information-theoretic perspectives of optimal control problems. He received the DARPA Young Faculty Award, the AFOSR Young Investigator Program Award, and the NSF Career Award.
   </p>
 </div>
 
@@ -135,7 +136,7 @@ function toggleBio(id) {
       <strong>Kaoru Teranishi</strong><br><br>
       <span id="short-kaoru">Dr. Teranishi is a JSPS Overseas Research Fellow...</span>
       <span id="full-kaoru" class="full-bio">
-        of the Japan Society for the Promotion of Science and a Research Affiliate Postdoctoral in the Oden Institute for Computational Engineering and Sciences at UT Austin. He received his Ph.D. in mechanical and intelligent systems engineering from the University of Electro-Communications, Tokyo, Japan, in 2024. <a href="https://kaoruteranishi.xyz/">Website</a>
+        of the Japan Society for the Promotion of Science and a visiting scholar at the School of Aeronautics and Astronautics at Purdue University. He received his Ph.D. in mechanical and intelligent systems engineering from the University of Electro-Communications, Tokyo, Japan, in 2024. <a href="https://kaoruteranishi.xyz/">Website</a>
       </span>
       <span id="btn-kaoru" class="read-more" onclick="toggleBio('kaoru')">Expand More</span>
     </p>
