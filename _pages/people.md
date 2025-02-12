@@ -219,8 +219,8 @@ He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees
     <li>Hyunho Jung (Graduated from UT Austin with PhD in 2024, currently at the Republic of Korea Air Force)</li>
     <li>Travis Cuvelier (Graduated from UT Austin with PhD in 2024, currently at MITRE Corporation)</li>
     <li>Ali Reza Pedram (Graduated from UT Austin  with PhD in 2023, currently at Georgia Tech)</li>
-    <li>Binghan He (Postdoc researcher at UT Austin until 2022, currently at UC Berkeley)</li>
-    <li>Riku Funada (Postdoc researcher at UT Austin until 2020, currently at Tokyo Institute of Technology)</li>
+    <li>Binghan He (Postdoc researcher at UT Austin until 2022, currently Assistant Professor at The University of Texas at San Antonio</li>
+    <li>Riku Funada (Postdoc researcher at UT Austin until 2020, currently Assistant Professor at Tokyo Institute of Technology)</li>
     <li>Jeb Stefan (Graduated from UT Austin with M.S. in 2019, currently at Odyssey Space Research)</li>
   </ul>
 </div>
