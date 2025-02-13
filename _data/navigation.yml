@@ -32,8 +32,8 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Awards & Honors"
-    url: /awards-honors/
+  # - title: "Awards & Honors"
+  #   url: /awards-honors/
 
   - title: "People"
     url: /people/
