@@ -9,6 +9,7 @@ redirect_from:
 
 Forthcoming
 ---
+1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers.](https://arxiv.org/abs/2503.02176)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
 1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Chance-Constrained Stochastic Optimal Control via HJB equation with Dirichlet Boundary Condition.](https://arxiv.org/abs/2306.00264)
 
