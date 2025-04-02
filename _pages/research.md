@@ -10,7 +10,7 @@ redirect_from:
 We have several research projects across control, robotics, and information theory domains. The following diagram tries to capture our research trajectories and the story behind individual research projects. We hope the diagram is helpful in navigating through various exciting projects currently going on in our lab.
 Although both of these fields are well-established on their own, it is surprisingly tricky to translate a concept from one field to another. One reason is that these subjects are rarely taught together in educational programs, resulting in distinct research cultures. To address this gap, I am developing a graduate-level course on Networked Control Systems, aiming to teach elements of these two subjects in a single semester.
 
-![Research History](/images/research-history2.png)
+![Research History](/images/research_history.png)
 
 ---
 
