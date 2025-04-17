@@ -9,12 +9,15 @@ redirect_from:
 
 Forthcoming
 ---
+
 1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers.](https://arxiv.org/abs/2503.02176)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
 1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Chance-Constrained Stochastic Optimal Control via HJB equation with Dirichlet Boundary Condition.](https://arxiv.org/abs/2306.00264)
 
 Journal Publications
 ---
+
+1. J. Suh and T. Tanaka, Efficient Implementation of Reinforcement Learning over Homomorphic Encryption, Journal of The Society of Instrument and Control Engineers, vol. 64, no. 4, pp. 223-229, 2025, doi: 10.11499/sicejl.64.223.
 1. T. Tanaka, K. Sawada, Y. Watanabe, and M. Iwamoto, Covert Vehicle Misguidance and Its Detection: A Hypothesis Testing Game over Continuous-Time Dynamics. IEEE Control Systems Letters (L-CSS) (Accepted), 2024.
 1. K. Tuggle, D. Kim, M. Akella and T. Tanaka, Non-Myopic Sensor Scheduling for Linear Systems with Colored Noise.  AIAA Journal of Guidance, Control, and Dynamics (Accepted), 2024.
 1. B. He and T. Tanaka, Safety Control of Uncertain MIMO Systems Using Dynamic Output Feedback Barrier Pairs. IEEE Transactions on Automatic Control (Accepted), 2024.
@@ -48,6 +51,7 @@ Journal Publications
 Conference Papers
 ---
 
+1. S. Li, T. Tanaka, and H. Kim, Lower Bound of Networked Linear Quadratic Gaussian Plant With Two Linear Sensors and One Controller, IEEE International Symposium on Information Theory (ISIT), 2025.
 1. A. Patil, R. Funada, T. Tanaka and L. Sentis, Task Hierarchical Control via Null-Space Projection and Path Integral Approach, The 2025 American Control Conference, 2025.
 1. H. Kawase, K. Teranishi, K. Kogiso and T. Tanaka, Secure Cooperative Sensor Coverage Control Using Homomorphic Proxy Re-encryption, The 2025 American Control Conference, 2025.
 1. K. Teranishi, K. Kogiso and T. Tanaka, Faithful and Privacy-Preserving Implementation of Average Consensus, The 2025 American Control Conference, 2025.
