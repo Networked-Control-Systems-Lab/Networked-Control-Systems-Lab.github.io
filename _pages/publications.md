@@ -10,6 +10,7 @@ redirect_from:
 Forthcoming
 ---
 
+1. A. Patil, K. Morgenstein, L. Sentis, and T. Tanaka, [Path Integral Methods for Synthesizing and Preventing Stealthy Attacks in Nonlinear Cyber-Physical Systems.](https://arxiv.org/abs/2504.17118)
 1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers.](https://arxiv.org/abs/2503.02176)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
 1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Chance-Constrained Stochastic Optimal Control via HJB equation with Dirichlet Boundary Condition.](https://arxiv.org/abs/2306.00264)
@@ -18,11 +19,11 @@ Journal Publications
 ---
 
 1. J. Suh and T. Tanaka, Efficient Implementation of Reinforcement Learning over Homomorphic Encryption, Journal of The Society of Instrument and Control Engineers, vol. 64, no. 4, pp. 223-229, 2025, doi: 10.11499/sicejl.64.223.
-1. T. Tanaka, K. Sawada, Y. Watanabe, and M. Iwamoto, Covert Vehicle Misguidance and Its Detection: A Hypothesis Testing Game over Continuous-Time Dynamics. IEEE Control Systems Letters (L-CSS) (Accepted), 2024.
-1. K. Tuggle, D. Kim, M. Akella and T. Tanaka, Non-Myopic Sensor Scheduling for Linear Systems with Colored Noise.  AIAA Journal of Guidance, Control, and Dynamics (Accepted), 2024.
-1. B. He and T. Tanaka, Safety Control of Uncertain MIMO Systems Using Dynamic Output Feedback Barrier Pairs. IEEE Transactions on Automatic Control (Accepted), 2024.
-1. E. C. Kaya, M. Hibbard, T. Tanaka, U. Topcu, and A. Hashemi, Randomized Greedy Methods for Weak Submodular Sensor Selection with Robustness Considerations, Automatica (Accepted), 2024.
-1. T. Cuvelier, R. Ogden, and T. Tanaka, Minimum Bitrate Neuromorphic Encoding for Continuous-Time Gauss-Markov Processes. IEEE Transactions on Automatic Control (To appear), 2024.
+1. T. Tanaka, K. Sawada, Y. Watanabe, and M. Iwamoto, [Covert Vehicle Misguidance and Its Detection: A Hypothesis Testing Game over Continuous-Time Dynamics](https://ieeexplore.ieee.org/document/10777028), IEEE Control Systems Letters (L-CSS), vol. 8, pp. 2889-2894, 2024, doi: 10.1109/LCSYS.2024.3511398.
+1. K. Tuggle, D. Kim, M. Akella and T. Tanaka, [Non-Myopic Sensor Scheduling for Linear Systems with Colored Noise](https://arc.aiaa.org/doi/full/10.2514/1.G008324), AIAA Journal of Guidance, Control, and Dynamics, vol. 48, no. 3, pp. 470-484, 2025, doi: 10.2514/1.G008324.
+1. B. He and T. Tanaka, [Safety Control of Uncertain MIMO Systems Using Dynamic Output Feedback Barrier Pairs](https://ieeexplore.ieee.org/document/10681624), IEEE Transactions on Automatic Control, vol. 70, no. 3, pp. 1440-1454, 2025, doi: 10.1109/TAC.2024.3462288.
+1. E. C. Kaya, M. Hibbard, T. Tanaka, U. Topcu, and A. Hashemi, [Randomized Greedy Methods for Weak Submodular Sensor Selection with Robustness Considerations](https://www.sciencedirect.com/science/article/pii/S0005109824004783), Automatica, vol. 171, pp. 111984, 2025, doi: 10.1016/j.automatica.2024.111984.
+1. T. Cuvelier, R. Ogden, and T. Tanaka, [Minimum Bitrate Neuromorphic Encoding for Continuous-Time Gauss-Markov Processes](https://ieeexplore.ieee.org/abstract/document/10572298), IEEE Transactions on Automatic Control, vol. 70, no. 1, 2025, doi: 10.1109/TAC.2024.3419586.
 1. R. Ogden and T. Tanaka, Rate-Distortion Achievability via Event Threshold Quantizers for Planer Wiener Processes, IEEE Control Systems Letters (L-CSS), vol. 8, pp. 1931-1936, 2024, doi: 10.1109/LCSYS.2024.3418315.
 1. A. Patil, G. A. Hanasusanto, and T. Tanaka, Discrete-Time Stochastic LQR via Path Integral Control and Its Sample Complexity Analysis, IEEE Control Systems Letters (L-CSS), vol. 8, pp. 1595-1600, 2024, doi: 10.1109/LCSYS.2024.3413869.
 1. T. Tanaka, V. Zinage, V. Ugrinovskii, and M. Skoglund, Continuous-Time Channel Gain Control for Minimum-Information Kalman-Bucy Filtering, IEEE Transactions on Automatic Control (To appear), 2024, doi: 10.1109/TAC.2024.3395477.
