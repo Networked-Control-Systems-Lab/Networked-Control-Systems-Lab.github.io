@@ -15,6 +15,7 @@ Forthcoming
 
 Journal Publications
 ---
+1. K. Hoshino, H. Yu, T. Tanaka, and Y. Chen, Path integral control of partially observed systems via fully observable control approximation, Systems & Control Letters (Accepted), 2025 
 1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers](https://arxiv.org/abs/2503.02176), IEEE Transactions on Control of Network Systems (Accepted)
 1. J. Suh, Y. Jang, K. Teranishi, and T. Tanaka,	Relative Entropy Regularized Reinforcement Learning for Efficient Encrypted Policy Synthesis. IEEE Control Systems Letters (L-CSS) (Accepted)
 1. J. Suh and T. Tanaka, [Efficient Implementation of Reinforcement Learning over Homomorphic Encryption](https://arxiv.org/abs/2504.09335), Journal of The Society of Instrument and Control Engineers, vol. 64, no. 4, pp. 223-229, 2025, doi: 10.11499/sicejl.64.223.
@@ -51,6 +52,7 @@ Journal Publications
 Conference Papers
 ---
 
+1. C. Martin, A. Patil, W. Li, T. Tanaka, and D. Chen, Model Predictive Path Integral Control for Roll-to-Roll Manufacturing, The 2025 Modeling, Estimation and Control Conference (MECC), 2025.
 1. S. Li, T. Tanaka, and H. Kim, Lower Bound of Networked Linear Quadratic Gaussian Plant With Two Linear Sensors and One Controller, IEEE International Symposium on Information Theory (ISIT), 2025.
 1. A. Patil, R. Funada, T. Tanaka and L. Sentis, Task Hierarchical Control via Null-Space Projection and Path Integral Approach, The 2025 American Control Conference, 2025.
 1. H. Kawase, K. Teranishi, K. Kogiso and T. Tanaka, Secure Cooperative Sensor Coverage Control Using Homomorphic Proxy Re-encryption, The 2025 American Control Conference, 2025.
