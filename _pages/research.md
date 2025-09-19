@@ -2,8 +2,9 @@
 permalink: /research/
 title: "Research"
 description: ""
+keywords: "networked control, optimal control, neuromorphic sensing, information theory, homomorphic encryption, path integral control, deceptive control"
 author_profile: false
-redirect_from: 
+redirect_from:
   - /research.html
 ---
 

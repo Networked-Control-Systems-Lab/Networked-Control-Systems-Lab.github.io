@@ -1,9 +1,10 @@
 ---
 permalink: /people/
 title: "People"
-description: ""
+description: "Networked Control System lab member biographies"
+keywords: "Takashi Tanaka, Kaoru Teranishi, Jihoon Suh, Moses Hansen, Dongheon Lee, Apurva Patil, Ronald Ogden, Rylie Anderson"
 author_profile: false
-redirect_from: 
+redirect_from:
   - /people.html
 ---
 
@@ -54,7 +55,15 @@ redirect_from:
 .graduate-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px; 
+    gap: 15px;
+    background: none;
+    padding: 0;
+}
+
+.undergrad-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
     background: none;
     padding: 0;
 }
@@ -161,30 +170,6 @@ He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees
   </div>
 
   <div class="person-box">
-    <img src="/images/moses.jpg" alt="profile image">
-    <p>
-      <strong>Moses Hansen</strong><br><br>
-      <span id="short-moses">PhD student in AAE at Purdue...</span>
-      <span id="full-moses" class="full-bio">
-        My research interests include leveraging deep reinforcement learning methods and classical control theory to optimize decision-making in competitive, multi-agent scenarios. In my spare time, I enjoy hiking, being outdoors, and cooking.
-      </span>
-      <span id="btn-moses" class="read-more" onclick="toggleBio('moses')">Expand More</span>
-    </p>
-  </div>
-  
-  <div class="person-box">
-    <img src="/images/apurva.jpg" alt="profile image">
-    <p>
-      <strong>Apurva Patil</strong><br><br>
-      <span id="short-apurva">PhD student in Mechanical Engineering at UT Austin...</span>
-      <span id="full-apurva" class="full-bio">
-        My research interests lie in robotics, path-planning, and perception. I completed my bachelor's from College of Engineering Pune in India. In my free time, I enjoy swimming and listening to music. <a href="https://patil-apurva.github.io/portfolio/">Website</a>
-      </span>
-      <span id="btn-apurva" class="read-more" onclick="toggleBio('apurva')">Expand More</span>
-    </p>
-  </div>
-
-  <div class="person-box">
     <img src="/images/ronnie.jpg" alt="profile image">
     <p>
       <strong>Ronald Ogden</strong><br><br>
@@ -197,14 +182,62 @@ He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees
   </div>
 
   <div class="person-box">
-    <img src="/images/vrushab.jpg" alt="profile image">
+    <img src="/images/moses.jpg" alt="profile image">
     <p>
-      <strong>Vrushabh Zinage</strong><br><br>
-      <span id="short-vrushab">PhD student in Aerospace Engineering at UT Austin...</span>
-      <span id="full-vrushab" class="full-bio">
-        My research interests lie in the intersection of robotics, motion planning, and control theory. Prior to joining UT, I completed my Bachelor's in Aerospace Engineering from IIT Madras in India. In my free time, I enjoy watching cricket, listening to music, stargazing, and watching movies.
+      <strong>Moses Hansen</strong><br><br>
+      <span id="short-moses">PhD student in AAE at Purdue...</span>
+      <span id="full-moses" class="full-bio">
+        Moses is a PhD student in the School of Aeronautics and Astronautics at Purdue University. He earned his Bachelor’s degree in Mathematics from Brigham Young University in 2024, where he applied deep learning methods on the computer vision team in the Record Linking Lab. He also worked with the Air Force Research Laboratory, developing deep reinforcement learning techniques for competitive, high-stakes multi-agent satellite control scenarios. His current research combines information theory with classical control to design autonomous systems capable of deception-resistant path planning in competitive, multi-agent environments. In his free time, he enjoys cooking, lifting weights, and spending time outdoors.
       </span>
-      <span id="btn-vrushab" class="read-more" onclick="toggleBio('vrushab')">Expand More</span>
+      <span id="btn-moses" class="read-more" onclick="toggleBio('moses')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/sashank.jpg" alt="profile image">
+    <p>
+      <strong>Sashank Modali</strong><br><br>
+      <span id="short-sashank">PhD student in AAE at Purdue...</span>
+      <span id="full-sashank" class="full-bio">
+        My research interests lie at the intersection of robotics, multi-agent systems, and stochastic control. Prior to joining Purdue, I completed my Bachelor's degree in Aerospace Engineering from IIT Madras, India. In my spare time, I enjoy playing squash and traveling.
+      </span>
+      <span id="btn-sashank" class="read-more" onclick="toggleBio('sashank')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/dongheon.jpeg" alt="profile image">
+    <p>
+      <strong>Dongheon Lee</strong><br><br>
+      <span id="short-dongheon">MS student in ECE at Purdue...</span>
+      <span id="full-dongheon" class="full-bio">
+        My research interests include task allocation and path planning for multi-agent systems. Prior to coming to Purdue, I worked as a software engineer at EpiSci and Applied Intuition, where I developed autonomous small UAV applications. In my free time, I enjoy playing soccer, running, and watching movies.
+      </span>
+      <span id="btn-dongheon" class="read-more" onclick="toggleBio('dongheon')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/rylie.png" alt="profile image">
+    <p>
+      <strong>Rylie Anderson</strong><br><br>
+      <span id="short-rylie">MS student in ECE at Purdue...</span>
+      <span id="full-rylie" class="full-bio">
+        My research interests are in control theory and aerospace. Prior to joining Purdue, I completed my Bachelor's in Computer Science at the US Air Force Academy. Outside of research and classes, I enjoy running, reading, and jiu-jitsu.
+      </span>
+      <span id="btn-rylie" class="read-more" onclick="toggleBio('rylie')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/owen.PNG" alt="profile image">
+    <p>
+      <strong>Owen Bishop</strong><br><br>
+      <span id="short-owen">MS student in AAE at Purdue...</span>
+      <span id="full-owen" class="full-bio">
+        My research interests are primarily focused on event-based sensing and transmission, with applications to control systems. I completed my Bachelor’s in Electrical Engineering from Purdue University. In my free time, I enjoy reading science-fiction and fantasy books, and playing board games.
+      </span>
+      <span id="btn-owen" class="read-more" onclick="toggleBio('owen')">Expand More</span>
     </p>
   </div>
 
@@ -212,9 +245,77 @@ He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees
 
 ---
 
+## Undergraduate Students
+
+<div class="undergrad-grid">
+  <div class="person-box">
+    <img src="/images/meg.png" alt="profile image">
+    <p>
+      <strong>Meg Kumar</strong><br><br>
+      <span id="short-meg">Student in AAE at Purdue...</span>
+      <span id="full-meg" class="full-bio">
+        My name is Meg Kumar and I am a junior study aerospace engineering. In this lab, I am focusing on working with the pencil balancing project, specifically the mechanic side. I enjoy working with the physical system of the invented pendulum project, so I am developing robotic arms to assist with the balancing aspect. Another part of the project I am working on is the image processing with event cameras, to provide information to the system.
+      </span>
+      <span id="btn-meg" class="read-more" onclick="toggleBio('meg')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/lucca.jpg" alt="profile image">
+    <p>
+      <strong>Lucca Mo</strong><br><br>
+      <span id="short-lucca">Student in AAE at Purdue...</span>
+      <span id="full-lucca" class="full-bio">
+        I am studying the dynamics of a falling pencil as a model for an unstable control system. I am deriving the equations of motion and converting them into a state–space representation (A,B,C,D) to analyze stability, while also building MATLAB simulations to visualize how the pencil behaves over time, including plots of its angle response. I am preparing a poster for the Fall Undergraduate Research Conference to present the modeling and simulation results. In addition, I am contributing to the experimental side by helping with the setup and testing of the pencil-balancing apparatus, documenting my work with notes and photos.
+      </span>
+      <span id="btn-lucca" class="read-more" onclick="toggleBio('lucca')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/ishaan.png" alt="profile image">
+    <p>
+      <strong>Ishaan Agrawal</strong><br><br>
+      <span id="short-ishaan">Student in AAE at Purdue...</span>
+      <span id="full-ishaan" class="full-bio">
+        My research interests include optimal control for aerospace and autonomous systems; recently, I'm interested in how model predictive control can be adapted for security. I like soccer and astrophotography.
+      </span>
+      <span id="btn-ishaan" class="read-more" onclick="toggleBio('ishaan')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/atharva.jpg" alt="profile image">
+    <p>
+      <strong>Atharva Awasthi</strong><br><br>
+      <span id="short-atharva">Student in AAE at Purdue...</span>
+      <span id="full-atharva" class="full-bio">
+        My research interests include optimal control methods for trajectory and path planning, estimation, astrodynamics, and competitive systems. In my free time, I enjoy cooking, dancing, and playing board games.
+      </span>
+      <span id="btn-atharva" class="read-more" onclick="toggleBio('atharva')">Expand More</span>
+    </p>
+  </div>
+
+  <div class="person-box">
+    <img src="/images/austin.jpg" alt="profile image">
+    <p>
+      <strong>Austin Lika</strong><br><br>
+      <span id="short-austin">Student in AAE at Purdue...</span>
+      <span id="full-austin" class="full-bio">
+        My research interests include optimal control methods for trajectory and path planning, estimation, astrodynamics, and competitive systems. In my free time, I enjoy cooking, dancing, and playing board games.
+      </span>
+      <span id="btn-austin" class="read-more" onclick="toggleBio('austin')">Expand More</span>
+    </p>
+  </div>
+</div>
+
+---
+
 ## Alumni
 <div class="alumni">
   <ul>
+    <li>Vrushabh Zinage (Graduated from UT Austin with PhD in 2025, currently at CalTech)</li>
+    <li>Apurva Patil (Graduated from UT Austin with PhD in 2025, currently at Tensor Auto)</li>
     <li>Michael Hibbard (Graduated from UT Austin with PhD in 2024, currently at Starfish Space)</li>
     <li>Hyunho Jung (Graduated from UT Austin with PhD in 2024, currently at the Republic of Korea Air Force)</li>
     <li>Travis Cuvelier (Graduated from UT Austin with PhD in 2024, currently at MITRE Corporation)</li>
@@ -224,4 +325,3 @@ He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees
     <li>Jeb Stefan (Graduated from UT Austin with M.S. in 2019, currently at Odyssey Space Research)</li>
   </ul>
 </div>
-
