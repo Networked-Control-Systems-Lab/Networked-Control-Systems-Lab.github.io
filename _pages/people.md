@@ -302,7 +302,7 @@ He received his B.S. from the University of Tokyo and his M.S. and Ph.D. degrees
       <strong>Austin Lika</strong><br><br>
       <span id="short-austin">Student in AAE at Purdue...</span>
       <span id="full-austin" class="full-bio">
-        My research interests include optimal control methods for trajectory and path planning, estimation, astrodynamics, and competitive systems. In my free time, I enjoy cooking, dancing, and playing board games.
+        My name is Austin Lika, and I am an undergraduate researcher working on the Neuromorphic Sensing project. I am a Junior in Electrical Engineering and Minoring in Global Engineering Studies and in Japanese. My research interests include control systems and robotics. In my free time I like to play sports, photography, and traveling.
       </span>
       <span id="btn-austin" class="read-more" onclick="toggleBio('austin')">Expand More</span>
     </p>
