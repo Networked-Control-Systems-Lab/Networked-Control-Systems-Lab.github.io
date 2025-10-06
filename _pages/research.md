@@ -35,6 +35,29 @@ Utilizing these unique features of neuromorphic vision sensors, we aim to develo
 
 ---
 
+Path Integral Control
+======
+Path integral control is a novel method of controlling a system under stochastic dynamics, originally introduced by H.J Kappen. Stochastic dynamics present a very unique set of challenges, making control much more complex than under deterministic dynamics. Optimal control strategies may qualitatively change under increased noise. In path integral control, the controller makes certain assumptions about the problem to reduce the non-linear and computationally intractable Hamilton-Jacobi-Bellman (HBJ) equations to a tractable and linear stochastic differential heat equation. Then, Monte Carlo sampling allows the controller to numerically solve for an approximation to the optimal control sequence.
+
+We believe that path integral control has potential in the specific case of depetive control. In this problem, an attacker has hijacked a control system, inserting its own control inputs and replacing the sensor outputs observed by the controller. The simplest attack strategy is "Playback Loop" attack (as seen in every heist movie ever), where the attacker relays old recordings (or trivial permutations thereof) of safe system dynamics while applying unsafe control inputs. We are applying path integral control theory to the problem of detecting and defeating such attacks in real-time by applying a constant KL-Divergence-based hypothesis test to observations of the system. We aim to accomplish this by placing a "watermark" on the system controls and observing the effects. If observations diverge beyond tolerance from the expected effect of the watermarked control strategy, then we must conclude we are under attack. Of course, the watermark itself degrades control system performance, and is therefore a tradeoff between security and effectiveness. We intend to integrate this hypothesis testing into the cost function of path integral control to constantly maintain the ideal balance between system effectiveness and security.
+
+![DeceptivePathIntegralControlDiagram](/images/DPIDiagram.png)
+
+---
+
+Privacy and Security in Control
+======
+
+Modern control systems are tightly integrated with computation and data exchanges over a shared network. This motivates us to investigate cryptographic security enhancement of networked control system. Our latest experiment (see below) successfully implemented the encrypted dynamic controller on stabilizing an inverted pendulum (see Figure and Video below). This is a challenging encrypted control task in several aspects. First, running a dynamic controller entirely on an encrypted state estimates requires the underlying cryptosystem to handle both addition and multiplication (fully homomorphic) and to maintain correct decryptions after a long iterative operation on ciphertexts without intermediate decryptions. Second, the computation time must be fast enough to meet a stringent real-time requirement imposed by the control task. Our rotary inverted pendulum required about 30 Hz sampling frequency for stabilization.
+
+![Encrypted Control Diagram](/images/enc_dyn_control_figure_web.png)
+
+Kalman Filter and linear quadratic regulator (LQR) were designed in advance, and we transformed the dynamic controller into an integerized system using the pole placement technique proposed in [KIM22]. Encryptions of the designed controller and data were performed using the LWE-GSW cryptosystem [Regev09, GSW13]. Our experiment was conducted using a rather restricted set of encryption parameters due to computation requirements. Nevertheless, to the best of our knowledge, this is the first successful physical demonstration of the encrypted dynamic controller using the LWE-GSW cryptosystem. Our experimental testbed will allow emerging future research in encrypted control to be readily tested and evaluated, which will help advance the field of secure control systems.
+
+<iframe src="https://www.youtube.com/embed/UROEGujwwx8"></iframe>
+
+---
+
 Simultaneous Perception-Action Design (SPADE)
 ======
 
@@ -55,18 +78,5 @@ We develop motion planning algorithms that enable “minimum sensing navigation.
 To let our motion planning algorithm discover a path like B, we do not use the conventional Euclidean distance metric to measure the path length. Alternatively, we embed a non-Euclidean, information-geometric “distance” notion in which Path B looks shorter than Path A. The invention of such a “distance” notion is the core of our research contribution. To discover the shortest path with respect to this new “distance” function, we have developed RRT*- and PRM*-based numerical shortest path solvers thus far.
 
 <iframe src="https://www.youtube.com/embed/5MHLmFykZ9I"></iframe>
-
----
-
-Privacy and Security in Control
-======
-
-Modern control systems are tightly integrated with computation and data exchanges over a shared network. This motivates us to investigate cryptographic security enhancement of networked control system. Our latest experiment (see below) successfully implemented the encrypted dynamic controller on stabilizing an inverted pendulum (see Figure and Video below). This is a challenging encrypted control task in several aspects. First, running a dynamic controller entirely on an encrypted state estimates requires the underlying cryptosystem to handle both addition and multiplication (fully homomorphic) and to maintain correct decryptions after a long iterative operation on ciphertexts without intermediate decryptions. Second, the computation time must be fast enough to meet a stringent real-time requirement imposed by the control task. Our rotary inverted pendulum required about 30 Hz sampling frequency for stabilization.
-
-![Encrypted Control Diagram](/images/enc_dyn_control_figure_web.png)
-
-Kalman Filter and linear quadratic regulator (LQR) were designed in advance, and we transformed the dynamic controller into an integerized system using the pole placement technique proposed in [KIM22]. Encryptions of the designed controller and data were performed using the LWE-GSW cryptosystem [Regev09, GSW13]. Our experiment was conducted using a rather restricted set of encryption parameters due to computation requirements. Nevertheless, to the best of our knowledge, this is the first successful physical demonstration of the encrypted dynamic controller using the LWE-GSW cryptosystem. Our experimental testbed will allow emerging future research in encrypted control to be readily tested and evaluated, which will help advance the field of secure control systems.
-
-<iframe src="https://www.youtube.com/embed/UROEGujwwx8"></iframe>
 
 ---
