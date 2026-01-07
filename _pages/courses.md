@@ -3,7 +3,7 @@ permalink: /courses/
 title: "Courses"
 description: ""
 author_profile: false
-redirect_from: 
+redirect_from:
   - /courses.html
 ---
 
@@ -18,3 +18,6 @@ ASE 396: Networked Control Systems - Spring 2019, 2020, 2023, 2024
 
 Purdue University
 ---
+
+AAE 590: Stochastic Control - Fall 2025
+AAE 364: Control Systems Analysis - Spring 2025
