@@ -20,4 +20,5 @@ Purdue University
 ---
 
 AAE 590: Stochastic Control - Fall 2025
+
 AAE 364: Control Systems Analysis - Spring 2025
