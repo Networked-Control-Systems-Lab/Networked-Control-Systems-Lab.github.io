@@ -3,7 +3,7 @@ permalink: /publications/
 title: "Publications"
 description: ""
 author_profile: false
-redirect_from: 
+redirect_from:
   - /publications.html
 ---
 
@@ -11,13 +11,14 @@ Forthcoming
 ---
 1. A. Patil, K. Morgenstein, L. Sentis, and T. Tanaka, [Path Integral Methods for Synthesizing and Preventing Stealthy Attacks in Nonlinear Cyber-Physical Systems.](https://arxiv.org/abs/2504.17118)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
-1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Chance-Constrained Stochastic Optimal Control via HJB equation with Dirichlet Boundary Condition.](https://arxiv.org/abs/2306.00264)
+1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Strong Duality and Dual Ascent Approach to Continuous-Time  Chance-Constrained Stochastic Optimal Control.](https://arxiv.org/abs/2306.00264)
 
 Journal Publications
 ---
-1. K. Hoshino, H. Yu, T. Tanaka, and Y. Chen, Path integral control of partially observed systems via fully observable control approximation, Systems & Control Letters (Accepted), 2025 
-1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers](https://arxiv.org/abs/2503.02176), IEEE Transactions on Control of Network Systems (Accepted)
-1. J. Suh, Y. Jang, K. Teranishi, and T. Tanaka,	Relative Entropy Regularized Reinforcement Learning for Efficient Encrypted Policy Synthesis. IEEE Control Systems Letters (L-CSS) (Accepted)
+1. T. Sadamoto and T. Tanaka, Policy gradient method for LQG control via input–output-history representation: Convergence to O(ϵ)-stationary points, Systems & Control Letters, vol. 09, 2026, DOI: 10.1016/j.sysconle.2025.106289.
+1. K. Hoshino, H. Yu, T. Tanaka, and Y. Chen, Path integral control of partially observed systems via fully observable control approximation, Systems & Control Letters, vol. 204, 2025, DOI: 10.1016/j.sysconle.2025.106185.
+1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers](https://arxiv.org/abs/2503.02176), IEEE Transactions on Control of Network Systems, vol. 12, no. 4, 2025, DOI: 10.1109/TCNS.2025.3600860.
+1. J. Suh, Y. Jang, K. Teranishi, and T. Tanaka,	Relative Entropy Regularized Reinforcement Learning for Efficient Encrypted Policy Synthesis. IEEE Control Systems Letters (L-CSS), vol. 9, pp. 895 - 900, 2025, DOI: 10.1109/LCSYS.2025.3578573.
 1. J. Suh and T. Tanaka, [Efficient Implementation of Reinforcement Learning over Homomorphic Encryption](https://arxiv.org/abs/2504.09335), Journal of The Society of Instrument and Control Engineers, vol. 64, no. 4, pp. 223-229, 2025, doi: 10.11499/sicejl.64.223.
 1. T. Tanaka, K. Sawada, Y. Watanabe, and M. Iwamoto, [Covert Vehicle Misguidance and Its Detection: A Hypothesis Testing Game over Continuous-Time Dynamics](https://ieeexplore.ieee.org/document/10777028), IEEE Control Systems Letters (L-CSS), vol. 8, pp. 2889-2894, 2024, doi: 10.1109/LCSYS.2024.3511398.
 1. K. Tuggle, D. Kim, M. Akella and T. Tanaka, [Non-Myopic Sensor Scheduling for Linear Systems with Colored Noise](https://arc.aiaa.org/doi/full/10.2514/1.G008324), AIAA Journal of Guidance, Control, and Dynamics, vol. 48, no. 3, pp. 470-484, 2025, doi: 10.2514/1.G008324.
@@ -52,7 +53,9 @@ Journal Publications
 Conference Papers
 ---
 
-1. C. Martin, A. Patil, W. Li, T. Tanaka, and D. Chen, Model Predictive Path Integral Control for Roll-to-Roll Manufacturing, The 2025 Modeling, Estimation and Control Conference (MECC), 2025.
+1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Experimental Evaluation of Information-Theoretic Deception Strategies Against Robot Surveillance Systems,  2025 SICE Festival with Annual Conference, 2025, DOI: 10.23919/SICEFES67750.2025.11236553.
+1. R. Ogden, D. Fridovich-Keil, and T. Tanaka, Rate-Distortion Analysis of Optically Passive Vision Compression, IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026
+1. C. Martin, A. Patil, W. Li, T. Tanaka, and D. Chen, Model Predictive Path Integral Control for Roll-to-Roll Manufacturing, The 2025 Modeling, Estimation and Control Conference (MECC), 2025. (Best Student Paper Award)
 1. S. Li, T. Tanaka, and H. Kim, Lower Bound of Networked Linear Quadratic Gaussian Plant With Two Linear Sensors and One Controller, IEEE International Symposium on Information Theory (ISIT), 2025.
 1. A. Patil, R. Funada, T. Tanaka and L. Sentis, Task Hierarchical Control via Null-Space Projection and Path Integral Approach, The 2025 American Control Conference, 2025.
 1. H. Kawase, K. Teranishi, K. Kogiso and T. Tanaka, Secure Cooperative Sensor Coverage Control Using Homomorphic Proxy Re-encryption, The 2025 American Control Conference, 2025.
