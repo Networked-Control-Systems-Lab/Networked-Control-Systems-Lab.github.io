@@ -9,6 +9,8 @@ redirect_from:
 
 Forthcoming
 ---
+1. K. Teranishi, J. Suh, and T. Tanaka, Experimental Examination of Secure Two-Party Controller Computation, The 23rd IFAC World Congress, 2026.
+1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Enhancing Attack Detection for Mobile Robots via Parametric Final-State Distribution Modeling, The 23rd IFAC World Congress, 2026.
 1. A. Patil, K. Morgenstein, L. Sentis, and T. Tanaka, [Path Integral Methods for Synthesizing and Preventing Stealthy Attacks in Nonlinear Cyber-Physical Systems.](https://arxiv.org/abs/2504.17118)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
 1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Strong Duality and Dual Ascent Approach to Continuous-Time  Chance-Constrained Stochastic Optimal Control.](https://arxiv.org/abs/2306.00264)
