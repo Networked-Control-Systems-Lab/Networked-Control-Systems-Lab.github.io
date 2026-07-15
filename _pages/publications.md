@@ -9,14 +9,15 @@ redirect_from:
 
 Forthcoming
 ---
-1. K. Teranishi, J. Suh, and T. Tanaka, Experimental Examination of Secure Two-Party Controller Computation, The 23rd IFAC World Congress, 2026.
-1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Enhancing Attack Detection for Mobile Robots via Parametric Final-State Distribution Modeling, The 23rd IFAC World Congress, 2026.
 1. A. Patil, K. Morgenstein, L. Sentis, and T. Tanaka, [Path Integral Methods for Synthesizing and Preventing Stealthy Attacks in Nonlinear Cyber-Physical Systems.](https://arxiv.org/abs/2504.17118)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
 1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Strong Duality and Dual Ascent Approach to Continuous-Time  Chance-Constrained Stochastic Optimal Control.](https://arxiv.org/abs/2306.00264)
 
 Journal Publications
 ---
+1. A. Gurpegui, T. Tanaka, and A. Rantzer, L1 Optimal Control of Continuous-Time Stochastic Positive Systems, IEEE Control Systems Letters (L-CSS), Accepted.
+1. J. Suh, Y. Jang, J. Kim, and T. Tanaka, Variational Encrypted Model Predictive Control, IEEE Control Systems Letters (L-CSS), Accepted.
+1. Y. Jang, J. Lee, J. Kim, T. Tanaka, and H. Shim, A learning with errors based encryption scheme for dynamic controllers that discloses residue signal for anomaly detection, IEEE Transactions on Control of Network Systems (TCNS), Accepted.
 1. T. Sadamoto and T. Tanaka, Policy gradient method for LQG control via input–output-history representation: Convergence to O(ϵ)-stationary points, Systems & Control Letters, vol. 09, 2026, DOI: 10.1016/j.sysconle.2025.106289.
 1. K. Hoshino, H. Yu, T. Tanaka, and Y. Chen, Path integral control of partially observed systems via fully observable control approximation, Systems & Control Letters, vol. 204, 2025, DOI: 10.1016/j.sysconle.2025.106185.
 1. K. Teranishi and T. Tanaka, [Client-Aided Secure Two-Party Computation of Dynamic Controllers](https://arxiv.org/abs/2503.02176), IEEE Transactions on Control of Network Systems, vol. 12, no. 4, 2025, DOI: 10.1109/TCNS.2025.3600860.
@@ -54,7 +55,8 @@ Journal Publications
 
 Conference Papers
 ---
-
+1. K. Teranishi, J. Suh, and T. Tanaka, Experimental Examination of Secure Two-Party Controller Computation, The 23rd IFAC World Congress, 2026.
+1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Enhancing Attack Detection for Mobile Robots via Parametric Final-State Distribution Modeling, The 23rd IFAC World Congress, 2026.
 1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Experimental Evaluation of Information-Theoretic Deception Strategies Against Robot Surveillance Systems,  2025 SICE Festival with Annual Conference, 2025, DOI: 10.23919/SICEFES67750.2025.11236553.
 1. R. Ogden, D. Fridovich-Keil, and T. Tanaka, Rate-Distortion Analysis of Optically Passive Vision Compression, IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026
 1. C. Martin, A. Patil, W. Li, T. Tanaka, and D. Chen, Model Predictive Path Integral Control for Roll-to-Roll Manufacturing, The 2025 Modeling, Estimation and Control Conference (MECC), 2025. (Best Student Paper Award)
