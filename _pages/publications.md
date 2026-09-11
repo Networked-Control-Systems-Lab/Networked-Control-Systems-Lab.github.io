@@ -9,6 +9,11 @@ redirect_from:
 
 Forthcoming
 ---
+1. G. Das and T. Tanaka, [Model Predictive Path Integral Control as a Quantum Query Problem](https://arxiv.org/abs/2607.28851)
+1. S. Li, T. Tanaka, and H. Kim, [Lower Bound of Networked Control with Multiple Sensors and One Controller And The Application to Tracking Gaussian-Markov Source](https://arxiv.org/abs/2607.04172)
+1. Y. Jang, H. Chang, H. Park, H. Jang, T. Tanaka, and H. Shim, [Inverse Learning-Based Output Feedback Control of Nonlinear Systems with Verifiable Guarantees](https://arxiv.org/abs/2603.10292)
+1. Y. Jang, K. Teranishi, J. Suh, and T. Tanaka, [Privacy-Preserving Fully Distributed Gaussian Process Regression](https://arxiv.org/abs/2512.05473)
+1. Y. Georghiades, T. Tanaka, and S. Vishwanath, [Mean Field Analysis of Blockchain Systems](https://arxiv.org/abs/2601.05417)
 1. A. Patil, K. Morgenstein, L. Sentis, and T. Tanaka, [Path Integral Methods for Synthesizing and Preventing Stealthy Attacks in Nonlinear Cyber-Physical Systems.](https://arxiv.org/abs/2504.17118)
 1. V. Zinage, A. Pedram and T. Tanaka, [Optimal Sampling-based Motion Planning in Gaussian Belief Space for Minimum Sensing Navigation.](https://arxiv.org/abs/2306.00264)
 1. A. Patil, A. Duarte, F. Bisetti and T. Tanaka, [Strong Duality and Dual Ascent Approach to Continuous-Time  Chance-Constrained Stochastic Optimal Control.](https://arxiv.org/abs/2306.00264)
@@ -55,6 +60,11 @@ Journal Publications
 
 Conference Papers
 ---
+1. R. Anderson, G. Das, and T. Tanaka, [Bound Optimized Task Choice for Path Integral Control](https://arxiv.org/abs/2607.23866), The 65th IEEE Conference on Decision and Control, 2026.
+1. G. Das and T. Tanaka, [Path Integral Control in Gaussian Belief Space for Partially Observed Systems](https://arxiv.org/abs/2604.13312), The 65th IEEE Conference on Decision and Control, 2026.
+1. A. Gurpegui, M. Toma, and T. Tanaka, [General-Sum Linear Regulator Games for Positive Systems](https://arxiv.org/abs/2608.22711), The 65th IEEE Conference on Decision and Control, 2026.
+1. M. Tomar and T. Tanaka, [Linearly Solvable Continuous-Time General-Sum Stochastic Differential Games](https://arxiv.org/abs/2604.07479), The 65th IEEE Conference on Decision and Control, 2026.
+1. S. Modali and T. Tanaka, [Higher-Order Approximation of Exit Functionals in Sampling-Based Stochastic Model Predictive Control](), The 65th IEEE Conference on Decision and Control, 2026.
 1. K. Teranishi, J. Suh, and T. Tanaka, Experimental Examination of Secure Two-Party Controller Computation, The 23rd IFAC World Congress, 2026.
 1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Enhancing Attack Detection for Mobile Robots via Parametric Final-State Distribution Modeling, The 23rd IFAC World Congress, 2026.
 1. K. Horikoshi, Y. Watanabe, M. Iwamoto, T. Tanaka, and K. Sawada, Experimental Evaluation of Information-Theoretic Deception Strategies Against Robot Surveillance Systems,  2025 SICE Festival with Annual Conference, 2025, DOI: 10.23919/SICEFES67750.2025.11236553.
